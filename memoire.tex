@@ -113,10 +113,36 @@ pdfmenubar=false,
 \newpage
 
 \section{Introduction}
-sklgjegj \gls{tink} zukvhz \gls{tink}.
 \subsection{L'entreprise}
+
 \subsection{Le contexte}
 \subsubsection{Le Device Mangement à Orange}
+\paragraph*{}
+Mon alternance se déroule dans la branche R\&D d’Orange, appelée \gls{ols}. Plus précisément dans l’équipe \gls{care}, qui s’occupe de la gestion des équipements client, c’est-à-dire du « Device Management ».
+\paragraph*{}
+Le concept de « Device Management » possède plusieurs définitions selon les objets ou équipements gérés, et les équipes qui le mettent en place. Au sens de notre équipe, il est découpé en deux zones détaillées comme suis : 
+\begin{itemize}
+\subparagraph*{}
+\item Le coté client, où l’on retrouve le réseau privé du client, dit le \gls{lan}, avec généralement divers équipements tels que, une passerelle internet, un décodeur TV, un téléphone, une caméra IP, des capteurs domotiques etc.
+\item Le coté serveur, se trouvant chez Orange, où l’on va retrouver les serveurs, appelés \gls{acs} qui vont permettre de faire ce que l’on
+nomme du Device Management.
+\end{itemize}
+\paragraph*{}
+La communication entre un équipement et son \gls{acs} se fait via le protocole normalisé \gls{cwmp}. Ce protocole respecte le Document TR-069 définie par le \gls{bbf}. Ainsi, chaque équipement et \gls{acs} doit respecter la norme décrite dans le Document TR-069. Il faut donc toujours veiller à ce que les équipements embarquent bien un Client CWMP respectant cette norme. Tous comme les \gls{acs} qui doivent aussi rester à jour de cette norme.
+%Import Images
+\begin{figure}[!ht]
+    \center
+    \includegraphics[scale=0.7]{./img/DM-TR-069-screen.png}
+    \caption{Réseau de Device Management, côté \gls{acs} et côté Client}
+\end{figure}
+\paragraph*{}
+L’un des objectifs du Device Management, pour l’équipe \gls{care}, est d’apporter un service d’aide et de dépannage aux clients, tous en restant à distance. Dans le but de ne pas avoir à faire déplacer un technicien sur place, pour un problème qui peut être résolu à distance par l’exécution de scripts, lancement de test et analyse, correction de bug. Le rôle de l’équipe \gls{care}, est de concevoir l’intégration de ces outils qui pourront être utilisés à distance.
+\paragraph*{}
+La supervision et la maintenance du parc Orange sont d’autres activités dans le
+périmètre de l’activité du Device Management. Ce parc contient les différents produits
+vendus par Orange et qu’Orange s’engage à maintenir. On comprend alors l’importance des
+activités de supervision et de maintenance. Pour gérer ce parc, Orange a besoin, entre
+autres, d’identifier les différents équipements présents et d’accéder à leurs  caractéristiques. Les outils de Device Management développés au sein de l’équipe \gls{care} permettent, cette fois, de remonter aux \gls{acs} toutes les informations nécessaires pour superviser et maintenir le parc. Il permet également de mettre à jour et corriger des bugs en envoyant de nouvelles versions de firmware aux équipements concernés. \\
 \subsubsection{La norme TR-069}
 \subsection{Objectifs envisagés}
 \subsubsection{Première année}
