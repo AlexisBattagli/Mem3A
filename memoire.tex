@@ -1,0 +1,166 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[french]{nomencl}
+\usepackage{lmodern}
+\usepackage{graphicx} %Pour les images 
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage[left=2cm,right=2cm,top=2.5cm,bottom=2.5cm]{geometry}
+
+%Interligne 1.5
+\renewcommand{\baselinestretch}{1.5}
+
+%Pour la page de garde
+\newcommand{\hsp}{\hspace{20pt}}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+%HyperRef Conf
+\usepackage{hyperref}
+\hypersetup{
+pdftitle={Mémoire de fin d'étude},
+colorlinks=true, %colorise les liens
+breaklinks=true, %permet le retour à la ligne dans les liens trop longs
+urlcolor=black, %couleur des hyperliens
+linkcolor=black, %couleur des liens internes
+citecolor=black,    %couleur des liens de citations
+bookmarksopen=true,
+pdftoolbar=false,
+pdfmenubar=false,
+}
+
+%Gestion des pied et en-tête de page
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{}
+\chead{}
+\rhead{\leftmark}
+\lfoot{Alexis BATTAGLI}
+\cfoot{Page -\thepage-}
+\rfoot{Mémoire de fin d'étude}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+%Gestion des titre et indentation
+\usepackage{titlesec}
+\renewcommand{\thesection}{\arabic{section}}
+\setcounter{secnumdepth}{4} % On affiche une numérotation sur une profondeur de 3
+\setcounter{tocdepth}{4}        % La table des matières va a une profondeur de 3
+% Alignement des titres :
+\titlespacing{\chapter} {0pt} {*0} {*0} {} 
+\titlespacing{\section} {4ex} {*0} {*0} {} 
+\titlespacing{\subsection} {10ex} {*0} {*0} {} 
+\titlespacing{\subsubsection} {18ex} {*0} {*0} {} 
+
+%Gestion des Acronymes & Glossaire
+\usepackage[acronym]{glossaries}
+\makenoidxglossaries
+\loadglsentries{MyGlossaries.tex}
+\loadglsentries{MyAcronymes.tex}
+
+\begin{document}
+
+%Page de garde
+\begin{titlepage}
+  \begin{center}
+
+    \textsc{\LARGE Mémoire de fin d'étude}\\[2cm]
+
+    \textsc{\Large Ingénieur Informatique\\ spécialité Systèmes et Réseaux}\\[1.5cm]
+
+    % Title
+    \HRule \\[0.4cm]
+    { \huge Conception et réalisation d'un outil de validation d'équipements CWMP\\[0.4cm] }
+
+    \HRule \\[2cm]
+    \includegraphics[scale=0.2]{./img/imt_mines_ales-bleu.jpg}
+    \includegraphics[scale=0.1]{./img/orange.jpg}
+    \\[2cm]
+
+    % Author and supervisor
+    \begin{minipage}{0.5\textwidth}
+      \begin{flushleft} \large
+        \emph{Alternant :} Alexis \textsc{BATTAGLI}\\
+        \emph{Maitre d'apprentissage :}Marc \textsc{DOUET}\\
+        \emph{Tuteur académique : } Yan \textsc{MORET}
+      \end{flushleft}
+    \end{minipage}
+    \begin{minipage}{0.4\textwidth}
+      \begin{flushright} \large
+      	\emph{École :} IMT Mines Alès\\
+       	\emph{Entreprise :} Orange\\
+        \emph{Promotion :} INFRES 7\\
+      \end{flushright}
+    \end{minipage}
+
+    \vfill
+
+    % Bottom of the page
+    {\large Septembre 2014 — Septembre 2017}
+
+  \end{center}
+\end{titlepage}
+\newpage
+
+\section*{Remerciments}
+\newpage
+\tableofcontents
+\printnoidxglossaries
+\listoffigures
+\newpage
+
+\section{Introduction}
+sklgjegj \gls{tink} zukvhz \gls{tink}.
+\subsection{L'entreprise}
+\subsection{Le contexte}
+\subsubsection{Le Device Mangement à Orange}
+\subsubsection{La norme TR-069}
+\subsection{Objectifs envisagés}
+\subsubsection{Première année}
+\subsubsection{Deuxième année}
+\subsubsection{Troisième année}
+
+\section{Monté en compétence sur le protocole CWMP}
+\subsection{Création d'un ACS Servlet}
+\subsection{Études d'équipements}
+\subsubsection{Présentation du réseau isolé}
+\subsubsection{Test DNS}
+\subsubsection{Test de comportement TR-069 d'équipement}
+\subsection{Étude de client CWMP}
+\subsubsection{Client EasyCWMP}
+\subsubsection{Client tr69agent d'Orange}
+\subsubsection{Résultats} %conséquence : création du toolkit !
+\subsection{Impact sur mon parcours}
+
+\section{Projet principal: Conception et développement d'un outil de test}
+\subsection{Contexte}
+\subsection{Présentation}
+\subsection{Méthode de projet}
+\subsection{Travail de préparation}
+\subsubsection{Recherche de solution technique}
+\subsubsection{Analyse de faisabilité}
+\subsection{Conception}
+\subsection{Réalisation}
+\subsubsection{Travail en équipe}
+\subsubsection{Développement}
+\subsection{Déploiement}
+\subsubsection{Environement}
+\subsection{Communication et utilisateur}
+\subsection{Livrable du projet}
+\subsection{Difficultés, solutions et compétences acquises}
+\subsection{Bilan et apport personnel du projet}
+
+\section{Transfert de compétences}
+
+\section{Bilan de compétences}
+
+\section{Conclusion}
+\subsection{Atteintes des objectifs}
+\subsection{Progression}
+\subsection{Synthèse de parcours}
+sdgd
+
+\end{document}
