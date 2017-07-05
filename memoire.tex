@@ -139,12 +139,12 @@ Mon alternance se déroule plus précisément au sein de l’équipe \gls{care}.
 Le concept de « Device Management » possède plusieurs définitions selon les objets ou équipements gérés, et les équipes qui le mettent en place. Au sens de notre équipe, il est découpé en deux zones détaillées comme suis : 
 \begin{itemize}
 \subparagraph*{}
-\item Le coté client, où l’on retrouve le réseau privé du client, dit le \gls{lan}, avec généralement divers équipements tels que, une passerelle internet, un décodeur TV, un téléphone, une caméra IP, des capteurs domotiques etc.
-\item Le coté serveur, se trouvant chez Orange, où l’on va retrouver les serveurs, appelés \gls{acs} qui vont permettre de faire ce que l’on
+\item Le coté client, où l'on retrouve le réseau privé du client, dit le \gls{lan}, avec généralement divers équipements tels que, une passerelle Internet, un décodeur TV, un téléphone, une caméra \gls{ip}, des capteurs domotiques etc.
+\item Le coté serveur, se trouvant chez Orange, où l'on va retrouver les serveurs, appelés \gls{acs} qui vont permettre de faire ce que l'on
 nomme du Device Management.
 \end{itemize}
 \paragraph*{}
-La communication entre un équipement et son \gls{acs} se fait via le protocole normalisé \gls{cwmp}. Ce protocole respecte le Document TR-069 définie par le \gls{bbf}. Ainsi, chaque équipement et \gls{acs} doit respecter la norme décrite dans le Document TR-069. Il faut donc toujours veiller à ce que les équipements embarquent bien un client CWMP respectant implémentant cette norme. Les \gls{acs}  doivent eux aussi rester à jour vis à vis de cette norme.
+La communication entre un équipement et son \gls{acs} se fait via le protocole normalisé \gls{cwmp}. Ce protocole respecte le \gls{doctr069g} définie par le \gls{bbf}. Ainsi, chaque équipement et \gls{acs} doit respecter la norme décrite dans le \gls{doctr069g}. Il faut donc toujours veiller à ce que les équipements embarquent bien un client \gls{cwmp} respectant implémentant cette norme. Les \gls{acs}  doivent eux aussi rester à jour vis à vis de cette norme.
 %Import Images
 \begin{figure}[!ht]
     \center
@@ -162,14 +162,14 @@ La communication entre un équipement et son \gls{acs} se fait via le protocole 
 \paragraph*{}
 L’un des objectifs du Device Management, pour l’équipe \gls{care}, est d’apporter un service d’aide et de dépannage aux clients, tous en restant à distance. Dans le but de ne pas avoir à faire déplacer un technicien sur place, pour un problème qui peut être résolu à distance par l’exécution de scripts, lancement de test et analyse, correction de bug. Le rôle de l’équipe \gls{care}, est de concevoir l’intégration de ces outils qui pourront être utilisés à distance.
 \paragraph*{}
-La supervision et la maintenance du parc Orange sont d’autres activités dans le
-périmètre de l’activité du Device Management. Ce parc contient les différents produits vendus par Orange et qu’Orange s’engage à maintenir. On comprend alors l’importance des activités de supervision et de maintenance. Pour gérer ce parc, Orange a besoin, entre autres, d’identifier les différents équipements présents et d’accéder à leurs  caractéristiques. Les outils de Device Management  développés au sein de l’équipe \gls{care} permettent, cette fois, de remonter aux \gls{acs} toutes les informations nécessaires pour superviser et maintenir le parc. Il permet également de mettre à jour et corriger des bugs en envoyant de nouvelles versions de \gls{firmwareg} aux équipements concernés. \\
+La supervision et la maintenance du parc Orange sont d'autres activités dans le
+périmètre de l'activité du Device Management. Ce parc contient les différents produits vendus par Orange et qu’Orange s'engage à maintenir. On comprend alors l'importance des activités de supervision et de maintenance. Pour gérer ce parc, Orange a besoin, entre autres, d'identifier les différents équipements présents et d'accéder à leurs  caractéristiques. Les outils de Device Management  développés au sein de l'équipe \gls{care} permettent, cette fois, de remonter aux \gls{acs} toutes les informations nécessaires pour superviser et maintenir le parc. Il permet également de mettre à jour et corriger des bugs en envoyant de nouvelles versions de \gls{firmwareg} aux équipements concernés. \\
 
 \subsubsection{Document TR-069 et protocole normalisé CWMP}
-\paragraph*{} Avant de continuer ce document, il est important d'apporter des précisions sur le document TR-069 et le protocole CWMP qui en découle. 
-\paragraph*{}Comme mentionné précédemment, le document TR-069 est le résultat d'un consortium de plusieurs industriels. Ce consortium, appelé le \gls{bbf}, ce compose de plus d'une centaine de membres dont Orange, CISCO, Deutch Telecom, Huawei, Juniper, le gouvernement du Canada, Intel et bien d'autre. Le \gls{bbf} vise à décrire la gestion des équipements clients, dit CPE, par les serveurs de gestion d'équipements ACS. C'est par le document TR-069 que le BBF décrit un standard permettant la communication entre CPE et ACS pour une bonne gestion des équipements clients.
-\paragraph*{} Ce standard décrit un modéle de donnée, que l'on nomme Datamodel, comportant une partie commune, pour chaque équipement implémentant le document TR-069 et pouvant ainsi être manager par un ACS.
-\paragraph*{} Plus précisément, un CPE, afin de pouvoir échanger avec un ACS doit implémenter le document TR-069 sous la forme du protocole CWMP. Ce protocole 
+\paragraph*{} Avant de continuer ce document, il est important d'apporter des précisions sur le \gls{doctr069g} et le protocole \gls{cwmp} qui en découle. 
+\paragraph*{}Comme mentionné précédemment, le \gls{doctr069g} est le résultat d'un consortium de plusieurs industriels. Ce consortium, appelé le \gls{bbf}, ce compose de plus d'une centaine de membres dont Orange, CISCO, Deutch Telecom, Huawei, Juniper, le gouvernement du Canada, Intel et bien d'autre. Le \gls{bbf} vise à décrire la gestion des équipements clients, dit \gls{cpe}, par les serveurs de gestion d'équipements \gls{acs}. C'est par le \gls{doctr069g} que le \gls{bbf} décrit un standard permettant la communication entre \gls{cpe} et \gls{acs} pour une bonne gestion des équipements clients.
+\paragraph*{} Ce standard décrit un modèle de donnée, que l'on nomme \gls{datamodelg}, comportant une partie commune, pour chaque équipement implémentant le \gls{doctr069g} et pouvant ainsi être manager par un \gls{acs}.
+\paragraph*{} Plus précisément, un \gls{cpe}, afin de pouvoir échanger avec un \gls{acs} doit implémenter le \gls{doctr069g} sous la forme du protocole \gls{cwmp}. Ce protocole est transporté par du \gls{http} et encapsulé dans des messages SOAP. La création de session TR-069 ce fait toujours par le CPE. L'ACS ne peut pas créer de session, en revanche il peut demander au CPE qu'il vienne créer une session sur demande, en lui envoyant un \gls{http} GET à une URL exposé par le CPE, avec les bons identifiants. 
 
 \subsection{Objectifs envisagés}
 \subsubsection{Première année}

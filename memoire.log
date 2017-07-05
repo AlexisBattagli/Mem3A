@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.18)  5 JUL 2017 15:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.18)  5 JUL 2017 16:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1071,7 +1071,7 @@ Package Fancyhdr Warning: \headheight is too small (14.49998pt):
  [6
 
 ]
-<./img/world_orange_2016.PNG, id=348, 603.0028pt x 332.74312pt>
+<./img/world_orange_2016.PNG, id=359, 603.0028pt x 332.74312pt>
 File: ./img/world_orange_2016.PNG Graphic file (type png)
 
 <use ./img/world_orange_2016.PNG>
@@ -1082,7 +1082,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
-[8] <./img/DM-TR-069-screen.png, id=373, 665.48625pt x 312.16624pt>
+[8] <./img/DM-TR-069-screen.png, id=388, 665.48625pt x 312.16624pt>
 File: ./img/DM-TR-069-screen.png Graphic file (type png)
 
 <use ./img/DM-TR-069-screen.png>
@@ -1110,10 +1110,10 @@ Package rerunfilecheck Info: File `memoire.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 223.
  ) 
 Here is how much of TeX's memory you used:
- 15031 strings out of 494883
- 224901 string characters out of 6178692
- 375575 words of memory out of 5000000
- 17951 multiletter control sequences out of 15000+600000
+ 15038 strings out of 494883
+ 224965 string characters out of 6178692
+ 376310 words of memory out of 5000000
+ 17955 multiletter control sequences out of 15000+600000
  60686 words of font info for 46 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  46i,11n,56p,1940b,619s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1129,9 +1129,6 @@ eplaced by a fixed one
 pdfTeX warning (dest): name{glo:dhcpg} has been referenced but does not exist, 
 replaced by a fixed one
 
-pdfTeX warning (dest): name{glo:cpeg} has been referenced but does not exist, r
-eplaced by a fixed one
-
 pdfTeX warning (dest): name{glo:apig} has been referenced but does not exist, r
 eplaced by a fixed one
 
@@ -1139,10 +1136,10 @@ eplaced by a fixed one
 blic/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/sh
 are/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/
 lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb>
-Output written on memoire.pdf (17 pages, 720828 bytes).
+Output written on memoire.pdf (17 pages, 722914 bytes).
 PDF statistics:
- 459 PDF objects out of 1000 (max. 8388607)
- 425 compressed objects within 5 object streams
- 97 named destinations out of 1000 (max. 500000)
+ 497 PDF objects out of 1000 (max. 8388607)
+ 463 compressed objects within 5 object streams
+ 100 named destinations out of 1000 (max. 500000)
  365 words of extra memory for PDF output out of 10000 (max. 10000000)
 
