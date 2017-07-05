@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.18)  5 JUL 2017 16:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.18)  5 JUL 2017 16:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -516,6 +516,24 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 (/usr/share/texlive/texmf-dist/tex/latex/base/makeidx.sty
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 )
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen119
+\extrarowheight=\dimen120
+\NC@list=\toks23
+\extratabsurround=\skip53
+\backup@length=\skip54
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2014/10/28 v2.10 `tabularx' package (DPC)
+\TX@col@width=\dimen121
+\TX@old@table=\dimen122
+\TX@old@col=\dimen123
+\TX@target=\dimen124
+\TX@delta=\dimen125
+\TX@cols=\count105
+\TX@ftn=\toks24
+)
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
@@ -530,18 +548,18 @@ Package ifvtex Info: VTeX not detected.
 (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count105
-\Gm@cntv=\count106
-\c@Gm@tempcnt=\count107
-\Gm@bindingoffset=\dimen119
-\Gm@wd@mp=\dimen120
-\Gm@odd@mp=\dimen121
-\Gm@even@mp=\dimen122
-\Gm@layoutwidth=\dimen123
-\Gm@layoutheight=\dimen124
-\Gm@layouthoffset=\dimen125
-\Gm@layoutvoffset=\dimen126
-\Gm@dimlist=\toks23
+\Gm@cnth=\count106
+\Gm@cntv=\count107
+\c@Gm@tempcnt=\count108
+\Gm@bindingoffset=\dimen126
+\Gm@wd@mp=\dimen127
+\Gm@odd@mp=\dimen128
+\Gm@even@mp=\dimen129
+\Gm@layoutwidth=\dimen130
+\Gm@layoutheight=\dimen131
+\Gm@layouthoffset=\dimen132
+\Gm@layoutvoffset=\dimen133
+\Gm@dimlist=\toks25
 )
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
@@ -595,16 +613,16 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
-\@linkdim=\dimen127
-\Hy@linkcounter=\count108
-\Hy@pagecounter=\count109
+\@linkdim=\dimen134
+\Hy@linkcounter=\count109
+\Hy@pagecounter=\count110
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count110
+\Hy@SavedSpaceFactor=\count111
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -616,17 +634,17 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count111
+\c@Hy@tempcnt=\count112
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen128
-\Fld@menulength=\count112
-\Field@Width=\dimen129
-\Fld@charsize=\dimen130
+\XeTeXLinkMargin=\dimen135
+\Fld@menulength=\count113
+\Field@Width=\dimen136
+\Fld@charsize=\dimen137
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -636,53 +654,53 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count113
-\c@Item=\count114
-\c@Hfootnote=\count115
+\Hy@abspage=\count114
+\c@Item=\count115
+\c@Hfootnote=\count116
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count116
-\c@bookmark@seq@number=\count117
+\Fld@listcount=\count117
+\c@bookmark@seq@number=\count118
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip53
+\Hy@SectionHShift=\skip55
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 33.
-Package hyperref Info: Option `breaklinks' set `true' on input line 33.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 33.
-Package hyperref Info: Option `pdftoolbar' set `false' on input line 33.
-Package hyperref Info: Option `pdfmenubar' set `false' on input line 33.
+Package hyperref Info: Option `colorlinks' set `true' on input line 35.
+Package hyperref Info: Option `breaklinks' set `true' on input line 35.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 35.
+Package hyperref Info: Option `pdftoolbar' set `false' on input line 35.
+Package hyperref Info: Option `pdfmenubar' set `false' on input line 35.
 
 (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-\fancy@headwidth=\skip54
-\f@ncyO@elh=\skip55
-\f@ncyO@erh=\skip56
-\f@ncyO@olh=\skip57
-\f@ncyO@orh=\skip58
-\f@ncyO@elf=\skip59
-\f@ncyO@erf=\skip60
-\f@ncyO@olf=\skip61
-\f@ncyO@orf=\skip62
+\fancy@headwidth=\skip56
+\f@ncyO@elh=\skip57
+\f@ncyO@erh=\skip58
+\f@ncyO@olh=\skip59
+\f@ncyO@orh=\skip60
+\f@ncyO@elf=\skip61
+\f@ncyO@erf=\skip62
+\f@ncyO@olf=\skip63
+\f@ncyO@orf=\skip64
 )
 (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2016/03/15 v2.10.1 Sectioning titles
 \ttl@box=\box28
-\beforetitleunit=\skip63
-\aftertitleunit=\skip64
-\ttl@plus=\dimen131
-\ttl@minus=\dimen132
-\ttl@toksa=\toks24
-\titlewidth=\dimen133
-\titlewidthlast=\dimen134
-\titlewidthfirst=\dimen135
+\beforetitleunit=\skip65
+\aftertitleunit=\skip66
+\ttl@plus=\dimen138
+\ttl@minus=\dimen139
+\ttl@toksa=\toks26
+\titlewidth=\dimen140
+\titlewidthlast=\dimen141
+\titlewidthfirst=\dimen142
 )
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries/base/glossaries.sty
 Package: glossaries 2016/01/24 v4.21 (NLCT)
@@ -695,10 +713,10 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks25
-\XKV@tempa@toks=\toks26
+\XKV@toks=\toks27
+\XKV@tempa@toks=\toks28
 )
-\XKV@depth=\count118
+\XKV@depth=\count119
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
@@ -706,10 +724,10 @@ Package: mfirstuc 2015/12/17 v2.02 (NLCT)
 
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count119
+\etb@tempcnta=\count120
 )
-\@glsmfirst=\toks27
-\@glsmrest=\toks28
+\@glsmfirst=\toks29
+\@glsmrest=\toks30
 )
 (/usr/share/texlive/texmf-dist/tex/latex/textcase/textcase.sty
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
@@ -722,7 +740,7 @@ Package: datatool-base 2016/01/18 v2.25 (NLCT)
 
 (/usr/share/texlive/texmf-dist/tex/latex/substr/substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count120
+\c@su@anzahl=\count121
 )
 (/usr/share/texlive/texmf-dist/tex/latex/datatool/datatool-fp.sty
 Package: datatool-fp 2016/01/18 v2.25 (NLCT)
@@ -733,19 +751,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 (/usr/share/texlive/texmf-dist/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count121
+\actioncount=\count122
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count122
-\FP@xia=\count123
-\FP@xib=\count124
-\FP@xfa=\count125
-\FP@xfb=\count126
-\FP@rega=\count127
-\FP@regb=\count128
-\FP@regs=\count129
-\FP@times=\count130
+\FP@xs=\count123
+\FP@xia=\count124
+\FP@xib=\count125
+\FP@xfa=\count126
+\FP@xfb=\count127
+\FP@rega=\count128
+\FP@regb=\count129
+\FP@regs=\count130
+\FP@times=\count131
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
@@ -764,7 +782,7 @@ Package: fp-pas 1994/08/29
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count131
+\FPseed=\count132
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
@@ -775,15 +793,15 @@ Package: fp-upn 1996/10/21
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eval.sty
 Package: fp-eval 1995/04/03
 )))
-\@dtl@toks=\toks29
-\@dtl@tmpcount=\count132
-\dtl@tmplength=\skip65
-\dtl@sortresult=\count133
-\@dtl@numgrpsepcount=\count134
-\@dtl@datatype=\count135
-\dtl@codeA=\count136
-\dtl@codeB=\count137
-\@dtl@foreach@level=\count138
+\@dtl@toks=\toks31
+\@dtl@tmpcount=\count133
+\dtl@tmplength=\skip67
+\dtl@sortresult=\count134
+\@dtl@numgrpsepcount=\count135
+\@dtl@datatype=\count136
+\dtl@codeA=\count137
+\dtl@codeB=\count138
+\@dtl@foreach@level=\count139
 )
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries/base/glossaries-compatible-
 307.sty
@@ -801,109 +819,109 @@ mappings.tex))
 f
 File: glossaries-french.ldf 2014/11/23 v1.0
 )
-\gls@level=\count139
-\@gls@tmpb=\toks30
-\gls@tmplen=\skip66
-\glskeylisttok=\toks31
-\glslabeltok=\toks32
-\glsshorttok=\toks33
-\glslongtok=\toks34
+\gls@level=\count140
+\@gls@tmpb=\toks32
+\gls@tmplen=\skip68
+\glskeylisttok=\toks33
+\glslabeltok=\toks34
+\glsshorttok=\toks35
+\glslongtok=\toks36
 
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.st
 y
 Package: glossary-hypernav 2016/01/24 v4.21 (NLCT)
 ) (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
 Package: glossary-list 2016/01/24 v4.21 (NLCT)
-\glslistdottedwidth=\skip67
+\glslistdottedwidth=\skip69
 ) (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-long.sty
 Package: glossary-long 2016/01/24 v4.21 (NLCT)
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip68
-\LTright=\skip69
-\LTpre=\skip70
-\LTpost=\skip71
-\LTchunksize=\count140
-\LTcapwidth=\dimen136
+\LTleft=\skip70
+\LTright=\skip71
+\LTpre=\skip72
+\LTpost=\skip73
+\LTchunksize=\count141
+\LTcapwidth=\dimen143
 \LT@head=\box29
 \LT@firsthead=\box30
 \LT@foot=\box31
 \LT@lastfoot=\box32
-\LT@cols=\count141
-\LT@rows=\count142
-\c@LT@tables=\count143
-\c@LT@chunks=\count144
-\LT@p@ftn=\toks35
+\LT@cols=\count142
+\LT@rows=\count143
+\c@LT@tables=\count144
+\c@LT@chunks=\count145
+\LT@p@ftn=\toks37
 )
-\glsdescwidth=\skip72
-\glspagelistwidth=\skip73
+\glsdescwidth=\skip74
+\glspagelistwidth=\skip75
 )
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-super.sty
 Package: glossary-super 2016/01/24 v4.21 (NLCT)
 
 (/usr/share/texlive/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
-\c@tracingst=\count145
-\ST@wd=\dimen137
-\ST@rightskip=\skip74
-\ST@leftskip=\skip75
-\ST@parfillskip=\skip76
-\ST@pageleft=\dimen138
-\ST@headht=\dimen139
-\ST@tailht=\dimen140
-\ST@pagesofar=\dimen141
-\ST@pboxht=\dimen142
-\ST@lineht=\dimen143
-\ST@stretchht=\dimen144
-\ST@prevht=\dimen145
-\ST@toadd=\dimen146
-\ST@dimen=\dimen147
+\c@tracingst=\count146
+\ST@wd=\dimen144
+\ST@rightskip=\skip76
+\ST@leftskip=\skip77
+\ST@parfillskip=\skip78
+\ST@pageleft=\dimen145
+\ST@headht=\dimen146
+\ST@tailht=\dimen147
+\ST@pagesofar=\dimen148
+\ST@pboxht=\dimen149
+\ST@lineht=\dimen150
+\ST@stretchht=\dimen151
+\ST@prevht=\dimen152
+\ST@toadd=\dimen153
+\ST@dimen=\dimen154
 \ST@pbox=\box33
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
 Package: glossary-tree 2016/01/24 v4.21 (NLCT)
-\glstreeindent=\skip77
+\glstreeindent=\skip79
 ))
 (./MyGlossaries.tex) (./MyAcronymes.tex) (./memoire.aux)
 \openout1 = `memoire.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 64.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 66.
 
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Info: Redefining \degres on input line 64.
-LaTeX Info: Redefining \dots on input line 64.
-LaTeX Info: Redefining \up on input line 64.
+LaTeX Info: Redefining \degres on input line 66.
+LaTeX Info: Redefining \dots on input line 66.
+LaTeX Info: Redefining \up on input line 66.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count146
-\scratchdimen=\dimen148
+\scratchcounter=\count147
+\scratchdimen=\dimen155
 \scratchbox=\box34
-\nofMPsegments=\count147
-\nofMParguments=\count148
-\everyMPshowfont=\toks36
-\MPscratchCnt=\count149
-\MPscratchDim=\dimen149
-\MPnumerator=\count150
-\makeMPintoPDFobject=\count151
-\everyMPtoPDFconversion=\toks37
+\nofMPsegments=\count148
+\nofMParguments=\count149
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count150
+\MPscratchDim=\dimen156
+\MPnumerator=\count151
+\makeMPintoPDFobject=\count152
+\everyMPtoPDFconversion=\toks39
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -962,7 +980,7 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 143.
 )
-Package hyperref Info: Link coloring ON on input line 64.
+Package hyperref Info: Link coloring ON on input line 66.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -970,11 +988,11 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count152
+\c@section@level=\count153
 )
-LaTeX Info: Redefining \ref on input line 64.
-LaTeX Info: Redefining \pageref on input line 64.
-LaTeX Info: Redefining \nameref on input line 64.
+LaTeX Info: Redefining \ref on input line 66.
+LaTeX Info: Redefining \pageref on input line 66.
+LaTeX Info: Redefining \nameref on input line 66.
 
 (./memoire.out) (./memoire.out)
 \@outlinefile=\write3
@@ -985,48 +1003,48 @@ LaTeX Info: Redefining \nameref on input line 64.
 File: ./img/imt_mines_ales-bleu.jpg Graphic file (type jpg)
 
 <use ./img/imt_mines_ales-bleu.jpg>
-Package pdftex.def Info: ./img/imt_mines_ales-bleu.jpg used on input line 79.
+Package pdftex.def Info: ./img/imt_mines_ales-bleu.jpg used on input line 81.
 (pdftex.def)             Requested size: 117.07532pt x 71.69057pt.
 
 <./img/orange.jpg, id=177, 702.625pt x 702.625pt>
 File: ./img/orange.jpg Graphic file (type jpg)
  <use ./img/orange.jpg>
-Package pdftex.def Info: ./img/orange.jpg used on input line 80.
+Package pdftex.def Info: ./img/orange.jpg used on input line 82.
 (pdftex.def)             Requested size: 70.2666pt x 70.2666pt.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 90.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 92.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 90.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 92.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 90.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 92.
 
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 90.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 92.
 
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 90.
+(Font)              <12> on input line 92.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 90.
+(Font)              <8> on input line 92.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 90.
-LaTeX Font Info:    Try loading font information for U+msa on input line 90.
+(Font)              <6> on input line 92.
+LaTeX Font Info:    Try loading font information for U+msa on input line 92.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 90.
+LaTeX Font Info:    Try loading font information for U+msb on input line 92.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1044,7 +1062,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.110 \newpage
+l.112 \newpage
                [1] (./memoire.toc [2
 
 ])
@@ -1071,49 +1089,59 @@ Package Fancyhdr Warning: \headheight is too small (14.49998pt):
  [6
 
 ]
-<./img/world_orange_2016.PNG, id=359, 603.0028pt x 332.74312pt>
+<./img/world_orange_2016.PNG, id=364, 603.0028pt x 332.74312pt>
 File: ./img/world_orange_2016.PNG Graphic file (type png)
 
 <use ./img/world_orange_2016.PNG>
-Package pdftex.def Info: ./img/world_orange_2016.PNG used on input line 122.
+Package pdftex.def Info: ./img/world_orange_2016.PNG used on input line 124.
 (pdftex.def)             Requested size: 482.4029pt x 266.19484pt.
  [7 <./img/world_orange_2016.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 132--133
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
 
  []
 
-[8] <./img/DM-TR-069-screen.png, id=388, 665.48625pt x 312.16624pt>
+[8] <./img/DM-TR-069-screen.png, id=393, 665.48625pt x 312.16624pt>
 File: ./img/DM-TR-069-screen.png Graphic file (type png)
 
 <use ./img/DM-TR-069-screen.png>
-Package pdftex.def Info: ./img/DM-TR-069-screen.png used on input line 151.
+Package pdftex.def Info: ./img/DM-TR-069-screen.png used on input line 153.
 (pdftex.def)             Requested size: 499.11346pt x 234.1241pt.
 
-Overfull \hbox (15.4166pt too wide) in paragraph at lines 151--152
+Overfull \hbox (15.4166pt too wide) in paragraph at lines 153--154
  [] 
  []
 
 [9 <./img/DM-TR-069-screen.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 165--167
+Underfull \hbox (badness 10000) in paragraph at lines 167--169
 
  []
 
+
+Underfull \hbox (badness 6758) in paragraph at lines 193--193
+\T1/lmr/m/n/12 va-leur(s) du/des pa-ra-mètre(s) de-
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 193--193
+[]|\T1/lmr/m/n/12 Permet de mo-di-fier la va-leur d'un
+ []
+
 [10] [11] [12] [13] [14] [15]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 223.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 248.
  [16]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 223.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 248.
  (./memoire.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 223.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 223.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 248.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 248.
 Package rerunfilecheck Info: File `memoire.out' has not changed.
 (rerunfilecheck)             Checksum: 928E26CCDE224C79F05FF5E7976FBFBD;3345.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 223.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 248.
  ) 
 Here is how much of TeX's memory you used:
- 15038 strings out of 494883
- 224965 string characters out of 6178692
- 376310 words of memory out of 5000000
- 17955 multiletter control sequences out of 15000+600000
+ 15124 strings out of 494883
+ 225998 string characters out of 6178692
+ 381300 words of memory out of 5000000
+ 18035 multiletter control sequences out of 15000+600000
  60686 words of font info for 46 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  46i,11n,56p,1940b,619s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1136,10 +1164,10 @@ eplaced by a fixed one
 blic/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/sh
 are/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/
 lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb>
-Output written on memoire.pdf (17 pages, 722914 bytes).
+Output written on memoire.pdf (17 pages, 724321 bytes).
 PDF statistics:
- 497 PDF objects out of 1000 (max. 8388607)
- 463 compressed objects within 5 object streams
- 100 named destinations out of 1000 (max. 500000)
+ 502 PDF objects out of 1000 (max. 8388607)
+ 468 compressed objects within 5 object streams
+ 101 named destinations out of 1000 (max. 500000)
  365 words of extra memory for PDF output out of 10000 (max. 10000000)
 

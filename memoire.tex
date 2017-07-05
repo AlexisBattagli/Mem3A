@@ -9,6 +9,8 @@
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{makeidx}
+\usepackage{array} %pour les tableaux \centering pour centrer le tout dans page.
+\usepackage{tabularx} %gère automatiqueent la taille du tableau
 \usepackage[left=2cm,right=2cm,top=2.5cm,bottom=2.5cm]{geometry}
 
 %Interligne 1.5
@@ -168,7 +170,30 @@ périmètre de l'activité du Device Management. Ce parc contient les différent
 \subsubsection{Document TR-069 et protocole normalisé CWMP}
 \paragraph*{} Avant de continuer ce document, il est important d'apporter des précisions sur le \gls{doctr069g} et le protocole \gls{cwmp} qui en découle. 
 \paragraph*{}Comme mentionné précédemment, le \gls{doctr069g} est le résultat d'un consortium de plusieurs industriels. Ce consortium, appelé le \gls{bbf}, ce compose de plus d'une centaine de membres dont Orange, CISCO, Deutch Telecom, Huawei, Juniper, le gouvernement du Canada, Intel et bien d'autre. Le \gls{bbf} vise à décrire la gestion des équipements clients, dit \gls{cpe}, par les serveurs de gestion d'équipements \gls{acs}. C'est par le \gls{doctr069g} que le \gls{bbf} décrit un standard permettant la communication entre \gls{cpe} et \gls{acs} pour une bonne gestion des équipements clients.
-\paragraph*{} Ce standard décrit un modèle de donnée, que l'on nomme \gls{datamodelg}, comportant une partie commune, pour chaque équipement implémentant le \gls{doctr069g} et pouvant ainsi être manager par un \gls{acs}.
+\paragraph*{} Ce standard décrit un modèle de donnée, que l'on nomme \gls{datamodelg}, comportant une partie commune, pour chaque équipement implémentant le \gls{doctr069g} et pouvant ainsi être manager par un \gls{acs}. Il décrit également différente méthode, que l'on nomme RPC Methode, obligatoire ou facultative, qui doivent être implémentées soit par l'ACS soit par le CPE. Parmi ces méthodes on peut cité les méthodes suivante:
+\subparagraph*{}
+
+\begin{table}
+	\begin{tabularx}{17cm}{|l|X|l|}
+		\hline
+		RPC Method & Description & Implémenté par...\tabularnewline
+		\hline
+		Inform & Permet au CPE d'initier une session TR-069 & CPE\tabularnewline
+		\hline
+		InformResponse & Permet à l'ACS de répondre à un Inform. & ACS\tabularnewline
+		\hline
+		GetParameterValues & Permet de récupèrer la valeur d'un ou plusieurs 				paramètre du datamodel passé en paramètre. & ACS\tabularnewline
+		\hline
+		GetParameterValuesResponse & Permet au CPE de répondre à un 						GetParameterValues en indiquant la/les valeur(s) du/des paramètre(s) 				demandé(s) par l'ACS & CPE\tabularnewline
+		\hline
+		SetParameterValues & Permet de modifier la valeur d'un ou plusieurs 				paramètre du datamodèle passé en paramètre. & ACS\tabularnewline
+		\hline
+		SetParameterValuesResponse & Permet au CPE de répondre à un 						SetParameterValues en indiquant si la demande a pu être réaliser. & CPE\tabularnewline
+		\hline
+	\end{tabularx}
+	\centering
+	\caption{Liste des RPC méthodes rencontrées dans ce document.}
+\end{table}
 \paragraph*{} Plus précisément, un \gls{cpe}, afin de pouvoir échanger avec un \gls{acs} doit implémenter le \gls{doctr069g} sous la forme du protocole \gls{cwmp}. Ce protocole est transporté par du \gls{http} et encapsulé dans des messages SOAP. La création de session TR-069 ce fait toujours par le CPE. L'ACS ne peut pas créer de session, en revanche il peut demander au CPE qu'il vienne créer une session sur demande, en lui envoyant un \gls{http} GET à une URL exposé par le CPE, avec les bons identifiants. 
 
 \subsection{Objectifs envisagés}
