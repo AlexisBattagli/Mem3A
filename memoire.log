@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.18)  4 JUL 2017 16:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.18)  5 JUL 2017 10:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1053,11 +1053,6 @@ l.109 \newpage
 
 
 
-Package glossaries Warning: Empty glossary for \printnoidxglossary[type={main}]
-. Rerun may be required (or you may have forgotten to use commands like \gls). 
-on input line 111.
-
-
 Package Fancyhdr Warning: \headheight is too small (14.49998pt): 
  Make it at least 15.35403pt.
  We now make it that large for the rest of the document.
@@ -1066,49 +1061,70 @@ Package Fancyhdr Warning: \headheight is too small (14.49998pt):
 [3] [4
 
 
+] [5
+
+
 ] (./memoire.lof)
 \tf@lof=\write5
 \openout5 = `memoire.lof'.
 
- [5
+ [6
 
 ]
-<./img/DM-TR-069-screen.png, id=293, 665.48625pt x 312.16624pt>
+<./img/DM-TR-069-screen.png, id=344, 665.48625pt x 312.16624pt>
 File: ./img/DM-TR-069-screen.png Graphic file (type png)
 
 <use ./img/DM-TR-069-screen.png>
-Package pdftex.def Info: ./img/DM-TR-069-screen.png used on input line 137.
+Package pdftex.def Info: ./img/DM-TR-069-screen.png used on input line 135.
 (pdftex.def)             Requested size: 465.83719pt x 218.51488pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--148
+Underfull \hbox (badness 10000) in paragraph at lines 141--146
 
  []
 
-[6]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 194.
- [7 <./img/DM-TR-069-screen.png>]
-Overfull \vbox (373.54198pt too high) has occurred while \output is active []
+[7]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 191.
+ [8 <./img/DM-TR-069-screen.png>]
+Overfull \vbox (359.89206pt too high) has occurred while \output is active []
 
 
-[8]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 194.
+[9]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 191.
  (./memoire.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 194.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 194.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 191.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 191.
 Package rerunfilecheck Info: File `memoire.out' has not changed.
 (rerunfilecheck)             Checksum: 735C00F9ABC2E8BA705743C8448F30B2;3314.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 194.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 191.
  ) 
 Here is how much of TeX's memory you used:
- 13328 strings out of 494883
- 194957 string characters out of 6178692
- 355032 words of memory out of 5000000
- 16279 multiletter control sequences out of 15000+600000
+ 14924 strings out of 494883
+ 223294 string characters out of 6178692
+ 376699 words of memory out of 5000000
+ 17854 multiletter control sequences out of 15000+600000
  60686 words of font info for 46 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 46i,11n,50p,1940b,619s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{glo:tinkg} has been referenced but does not exist
-, replaced by a fixed one
+ 46i,11n,51p,1940b,619s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{glo:urlg} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:tinkg} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:paasg} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:ihmg} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{glo:dnsg} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{glo:dhcpg} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:cpeg} has been referenced but does not exist, r
+eplaced by a fixed one
 
 pdfTeX warning (dest): name{glo:apig} has been referenced but does not exist, r
 eplaced by a fixed one
@@ -1117,10 +1133,10 @@ eplaced by a fixed one
 blic/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/sh
 are/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/
 lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb>
-Output written on memoire.pdf (9 pages, 623776 bytes).
+Output written on memoire.pdf (10 pages, 627200 bytes).
 PDF statistics:
- 352 PDF objects out of 1000 (max. 8388607)
- 329 compressed objects within 4 object streams
- 68 named destinations out of 1000 (max. 500000)
+ 404 PDF objects out of 1000 (max. 8388607)
+ 380 compressed objects within 4 object streams
+ 89 named destinations out of 1000 (max. 500000)
  360 words of extra memory for PDF output out of 10000 (max. 10000000)
 
