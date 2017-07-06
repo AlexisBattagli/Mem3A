@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.18)  5 JUL 2017 16:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.18)  6 JUL 2017 11:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -999,14 +999,14 @@ LaTeX Info: Redefining \nameref on input line 66.
 \openout3 = `memoire.out'.
 
 
-<./img/imt_mines_ales-bleu.jpg, id=176, 585.387pt x 358.4592pt>
+<./img/imt_mines_ales-bleu.jpg, id=257, 585.387pt x 358.4592pt>
 File: ./img/imt_mines_ales-bleu.jpg Graphic file (type jpg)
 
 <use ./img/imt_mines_ales-bleu.jpg>
 Package pdftex.def Info: ./img/imt_mines_ales-bleu.jpg used on input line 81.
 (pdftex.def)             Requested size: 117.07532pt x 71.69057pt.
 
-<./img/orange.jpg, id=177, 702.625pt x 702.625pt>
+<./img/orange.jpg, id=258, 702.625pt x 702.625pt>
 File: ./img/orange.jpg Graphic file (type jpg)
  <use ./img/orange.jpg>
 Package pdftex.def Info: ./img/orange.jpg used on input line 82.
@@ -1065,86 +1065,174 @@ been already used, duplicate ignored
 l.112 \newpage
                [1] (./memoire.toc [2
 
-])
-\tf@toc=\write4
-\openout4 = `memoire.toc'.
-
-
+]
 
 Package Fancyhdr Warning: \headheight is too small (14.49998pt): 
  Make it at least 15.35403pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[3] [4
+[3])
+\tf@toc=\write4
+\openout4 = `memoire.toc'.
 
-
-] [5
-
-
-] (./memoire.lof)
+ [4] (./memoire.lof)
 \tf@lof=\write5
 \openout5 = `memoire.lof'.
 
+ [5
+
+] (./memoire.lot)
+\tf@lot=\write6
+\openout6 = `memoire.lot'.
+
  [6
 
+] [7
+
+
+] [8
+
+
 ]
-<./img/world_orange_2016.PNG, id=364, 603.0028pt x 332.74312pt>
+<./img/world_orange_2016.PNG, id=471, 603.0028pt x 332.74312pt>
 File: ./img/world_orange_2016.PNG Graphic file (type png)
 
 <use ./img/world_orange_2016.PNG>
-Package pdftex.def Info: ./img/world_orange_2016.PNG used on input line 124.
+Package pdftex.def Info: ./img/world_orange_2016.PNG used on input line 133.
 (pdftex.def)             Requested size: 482.4029pt x 266.19484pt.
- [7 <./img/world_orange_2016.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
+ [9 <./img/world_orange_2016.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
 
  []
 
-[8] <./img/DM-TR-069-screen.png, id=393, 665.48625pt x 312.16624pt>
+[10] <./img/DM-TR-069-screen.png, id=491, 665.48625pt x 312.16624pt>
 File: ./img/DM-TR-069-screen.png Graphic file (type png)
 
 <use ./img/DM-TR-069-screen.png>
-Package pdftex.def Info: ./img/DM-TR-069-screen.png used on input line 153.
+Package pdftex.def Info: ./img/DM-TR-069-screen.png used on input line 163.
 (pdftex.def)             Requested size: 499.11346pt x 234.1241pt.
 
-Overfull \hbox (15.4166pt too wide) in paragraph at lines 153--154
+Overfull \hbox (15.4166pt too wide) in paragraph at lines 163--164
  [] 
  []
 
-[9 <./img/DM-TR-069-screen.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 167--169
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--176
+
+ []
+
+[11 <./img/DM-TR-069-screen.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
+
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
 
  []
 
 
-Underfull \hbox (badness 6758) in paragraph at lines 193--193
-\T1/lmr/m/n/12 va-leur(s) du/des pa-ra-mètre(s) de-
+Underfull \hbox (badness 10000) in paragraph at lines 192--194
+
  []
 
 
-Underfull \hbox (badness 1466) in paragraph at lines 193--193
-[]|\T1/lmr/m/n/12 Permet de mo-di-fier la va-leur d'un
+Underfull \hbox (badness 10000) in paragraph at lines 196--198
+
  []
 
-[10] [11] [12] [13] [14] [15]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 248.
- [16]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 248.
+[13] [14] [15] [16]
+Underfull \hbox (badness 10000) in paragraph at lines 243--245
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--248
+
+ []
+
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 251--254
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--258
+
+ []
+
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 261--263
+
+ []
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 264--267
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 270--273
+
+ []
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 276--280
+
+ []
+
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 283--285
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 289--290
+
+ []
+
+[22] [23] [24]
+Annexe A.
+[25
+
+] [26]
+Annexe B.
+<./img/tableaux_cpt.PNG, id=607, 512.66531pt x 695.59875pt>
+File: ./img/tableaux_cpt.PNG Graphic file (type png)
+
+<use ./img/tableaux_cpt.PNG>
+Package pdftex.def Info: ./img/tableaux_cpt.PNG used on input line 356.
+(pdftex.def)             Requested size: 461.3945pt x 626.0331pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 361.
+ [27
+
+]
+
+LaTeX Warning: Text page 28 contains only floats.
+
+[28 <./img/tableaux_cpt.PNG>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 361.
  (./memoire.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 248.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 248.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 361.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 361.
 Package rerunfilecheck Info: File `memoire.out' has not changed.
-(rerunfilecheck)             Checksum: 928E26CCDE224C79F05FF5E7976FBFBD;3345.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 248.
+(rerunfilecheck)             Checksum: 065C14F3471772BC7793EEB8687C4159;4957.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 361.
  ) 
 Here is how much of TeX's memory you used:
- 15124 strings out of 494883
- 225998 string characters out of 6178692
- 381300 words of memory out of 5000000
- 18035 multiletter control sequences out of 15000+600000
+ 15188 strings out of 494883
+ 227029 string characters out of 6178692
+ 380628 words of memory out of 5000000
+ 18060 multiletter control sequences out of 15000+600000
  60686 words of font info for 46 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 46i,11n,56p,1940b,619s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,12n,49p,1940b,619s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{glo:tinkg} has been referenced but does not exist
 , replaced by a fixed one
 
@@ -1164,10 +1252,10 @@ eplaced by a fixed one
 blic/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/sh
 are/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/
 lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb>
-Output written on memoire.pdf (17 pages, 724321 bytes).
+Output written on memoire.pdf (29 pages, 946394 bytes).
 PDF statistics:
- 502 PDF objects out of 1000 (max. 8388607)
- 468 compressed objects within 5 object streams
- 101 named destinations out of 1000 (max. 500000)
- 365 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 668 PDF objects out of 1000 (max. 8388607)
+ 618 compressed objects within 7 object streams
+ 136 named destinations out of 1000 (max. 500000)
+ 530 words of extra memory for PDF output out of 10000 (max. 10000000)
 

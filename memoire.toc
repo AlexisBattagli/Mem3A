@@ -1,44 +1,64 @@
 \select@language {french}
-\contentsline {section}{\numberline {1}Introduction}{7}{section.0.1}
-\contentsline {subsection}{\numberline {1.1}L'entreprise}{7}{subsection.0.1.1}
-\contentsline {subsection}{\numberline {1.2}Le contexte}{8}{subsection.0.1.2}
-\contentsline {subsubsection}{\numberline {1.2.1}Le Device Mangement \IeC {\`a} Orange}{8}{subsubsection.0.1.2.1}
-\contentsline {subsubsection}{\numberline {1.2.2}Document TR-069 et protocole normalis\IeC {\'e} CWMP}{10}{subsubsection.0.1.2.2}
-\contentsline {subsection}{\numberline {1.3}Objectifs envisag\IeC {\'e}s}{11}{subsection.0.1.3}
-\contentsline {subsubsection}{\numberline {1.3.1}Premi\IeC {\`e}re ann\IeC {\'e}e}{11}{subsubsection.0.1.3.1}
-\contentsline {subsubsection}{\numberline {1.3.2}Deuxi\IeC {\`e}me ann\IeC {\'e}e}{11}{subsubsection.0.1.3.2}
-\contentsline {subsubsection}{\numberline {1.3.3}Troisi\IeC {\`e}me ann\IeC {\'e}e}{11}{subsubsection.0.1.3.3}
-\contentsline {section}{\numberline {2}Mont\IeC {\'e} en comp\IeC {\'e}tence sur le protocole CWMP}{12}{section.0.2}
-\contentsline {subsection}{\numberline {2.1}Cr\IeC {\'e}ation d'un ACS Servlet}{12}{subsection.0.2.1}
-\contentsline {subsection}{\numberline {2.2}\IeC {\'E}tudes d'\IeC {\'e}quipements}{12}{subsection.0.2.2}
-\contentsline {subsubsection}{\numberline {2.2.1}Pr\IeC {\'e}sentation du r\IeC {\'e}seau isol\IeC {\'e}}{12}{subsubsection.0.2.2.1}
-\contentsline {subsubsection}{\numberline {2.2.2}Test DNS}{12}{subsubsection.0.2.2.2}
-\contentsline {subsubsection}{\numberline {2.2.3}Test de comportement TR-069 d'\IeC {\'e}quipement}{12}{subsubsection.0.2.2.3}
-\contentsline {subsection}{\numberline {2.3}\IeC {\'E}tude de client CWMP}{12}{subsection.0.2.3}
-\contentsline {subsubsection}{\numberline {2.3.1}Client EasyCWMP}{12}{subsubsection.0.2.3.1}
-\contentsline {subsubsection}{\numberline {2.3.2}Client tr69agent d'Orange}{12}{subsubsection.0.2.3.2}
-\contentsline {subsubsection}{\numberline {2.3.3}R\IeC {\'e}sultats}{12}{subsubsection.0.2.3.3}
-\contentsline {subsection}{\numberline {2.4}Impact sur mon parcours}{12}{subsection.0.2.4}
-\contentsline {section}{\numberline {3}Projet principal: Conception et d\IeC {\'e}veloppement d'un outil de test}{13}{section.0.3}
-\contentsline {subsection}{\numberline {3.1}Contexte}{13}{subsection.0.3.1}
-\contentsline {subsection}{\numberline {3.2}Pr\IeC {\'e}sentation}{13}{subsection.0.3.2}
-\contentsline {subsection}{\numberline {3.3}M\IeC {\'e}thode de projet}{13}{subsection.0.3.3}
-\contentsline {subsection}{\numberline {3.4}Travail de pr\IeC {\'e}paration}{13}{subsection.0.3.4}
-\contentsline {subsubsection}{\numberline {3.4.1}Recherche de solution technique}{13}{subsubsection.0.3.4.1}
-\contentsline {subsubsection}{\numberline {3.4.2}Analyse de faisabilit\IeC {\'e}}{13}{subsubsection.0.3.4.2}
-\contentsline {subsection}{\numberline {3.5}Conception}{13}{subsection.0.3.5}
-\contentsline {subsection}{\numberline {3.6}R\IeC {\'e}alisation}{13}{subsection.0.3.6}
-\contentsline {subsubsection}{\numberline {3.6.1}Travail en \IeC {\'e}quipe}{13}{subsubsection.0.3.6.1}
-\contentsline {subsubsection}{\numberline {3.6.2}D\IeC {\'e}veloppement}{13}{subsubsection.0.3.6.2}
-\contentsline {subsection}{\numberline {3.7}D\IeC {\'e}ploiement}{13}{subsection.0.3.7}
-\contentsline {subsubsection}{\numberline {3.7.1}Environement}{13}{subsubsection.0.3.7.1}
-\contentsline {subsection}{\numberline {3.8}Communication et utilisateur}{13}{subsection.0.3.8}
-\contentsline {subsection}{\numberline {3.9}Livrable du projet}{13}{subsection.0.3.9}
-\contentsline {subsection}{\numberline {3.10}Difficult\IeC {\'e}s, solutions et comp\IeC {\'e}tences acquises}{13}{subsection.0.3.10}
-\contentsline {subsection}{\numberline {3.11}Bilan et apport personnel du projet}{13}{subsection.0.3.11}
-\contentsline {section}{\numberline {4}Transfert de comp\IeC {\'e}tences}{14}{section.0.4}
-\contentsline {section}{\numberline {5}Bilan de comp\IeC {\'e}tences}{15}{section.0.5}
-\contentsline {section}{\numberline {6}Conclusion}{16}{section.0.6}
-\contentsline {subsection}{\numberline {6.1}Atteintes des objectifs}{16}{subsection.0.6.1}
-\contentsline {subsection}{\numberline {6.2}Progression}{16}{subsection.0.6.2}
-\contentsline {subsection}{\numberline {6.3}Synth\IeC {\`e}se de parcours}{16}{subsection.0.6.3}
+\contentsline {section}{\numberline {1}Introduction}{9}{section.0.1}
+\contentsline {subsection}{\numberline {1.1}L'entreprise}{9}{subsection.0.1.1}
+\contentsline {subsection}{\numberline {1.2}Le contexte}{10}{subsection.0.1.2}
+\contentsline {subsubsection}{\numberline {1.2.1}Le Device Mangement \IeC {\`a} Orange}{10}{subsubsection.0.1.2.1}
+\contentsline {subsubsection}{\numberline {1.2.2}Document TR-069 et protocole normalis\IeC {\'e} CWMP}{12}{subsubsection.0.1.2.2}
+\contentsline {subsection}{\numberline {1.3}Objectifs}{13}{subsection.0.1.3}
+\contentsline {subsubsection}{\numberline {1.3.1}Premi\IeC {\`e}re ann\IeC {\'e}e}{13}{subsubsection.0.1.3.1}
+\contentsline {subsubsection}{\numberline {1.3.2}Deuxi\IeC {\`e}me ann\IeC {\'e}e}{13}{subsubsection.0.1.3.2}
+\contentsline {subsubsection}{\numberline {1.3.3}Troisi\IeC {\`e}me ann\IeC {\'e}e}{13}{subsubsection.0.1.3.3}
+\contentsline {section}{\numberline {2}Mont\IeC {\'e} en comp\IeC {\'e}tence sur le protocole CWMP}{14}{section.0.2}
+\contentsline {subsection}{\numberline {2.1}\IeC {\'E}tudes d'\IeC {\'e}quipements}{14}{subsection.0.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Pr\IeC {\'e}sentation du r\IeC {\'e}seau isol\IeC {\'e}}{14}{subsubsection.0.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Test DNS}{14}{subsubsection.0.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.3}Test de comportement TR-069 d'\IeC {\'e}quipement}{14}{subsubsection.0.2.1.3}
+\contentsline {subsection}{\numberline {2.2}\IeC {\'E}tude de client CWMP}{14}{subsection.0.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}Client EasyCWMP}{14}{subsubsection.0.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2}Client tr69agent d'Orange}{14}{subsubsection.0.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.3}R\IeC {\'e}sultats}{14}{subsubsection.0.2.2.3}
+\contentsline {subsection}{\numberline {2.3}Cr\IeC {\'e}ation d'un ACS Servlet}{14}{subsection.0.2.3}
+\contentsline {subsection}{\numberline {2.4}Impact sur mon parcours}{14}{subsection.0.2.4}
+\contentsline {section}{\numberline {3}Conception et d\IeC {\'e}veloppement de TINK}{15}{section.0.3}
+\contentsline {subsection}{\numberline {3.1}Contexte}{15}{subsection.0.3.1}
+\contentsline {subsection}{\numberline {3.2}Pr\IeC {\'e}sentation}{15}{subsection.0.3.2}
+\contentsline {subsection}{\numberline {3.3}M\IeC {\'e}thode de projet}{15}{subsection.0.3.3}
+\contentsline {subsection}{\numberline {3.4}Travail de pr\IeC {\'e}paration}{15}{subsection.0.3.4}
+\contentsline {subsubsection}{\numberline {3.4.1}Recherche de solution technique}{15}{subsubsection.0.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.2}Analyse de faisabilit\IeC {\'e}}{15}{subsubsection.0.3.4.2}
+\contentsline {subsection}{\numberline {3.5}Conception}{15}{subsection.0.3.5}
+\contentsline {subsection}{\numberline {3.6}R\IeC {\'e}alisation}{15}{subsection.0.3.6}
+\contentsline {subsubsection}{\numberline {3.6.1}Travail en \IeC {\'e}quipe}{15}{subsubsection.0.3.6.1}
+\contentsline {subsubsection}{\numberline {3.6.2}D\IeC {\'e}veloppement}{15}{subsubsection.0.3.6.2}
+\contentsline {subsection}{\numberline {3.7}D\IeC {\'e}ploiement}{15}{subsection.0.3.7}
+\contentsline {subsubsection}{\numberline {3.7.1}Environement}{15}{subsubsection.0.3.7.1}
+\contentsline {subsection}{\numberline {3.8}Communication et utilisateur}{15}{subsection.0.3.8}
+\contentsline {subsection}{\numberline {3.9}Livrable du projet}{15}{subsection.0.3.9}
+\contentsline {subsection}{\numberline {3.10}Difficult\IeC {\'e}s, solutions et comp\IeC {\'e}tences acquises}{15}{subsection.0.3.10}
+\contentsline {subsection}{\numberline {3.11}Bilan et apport personnel du projet}{15}{subsection.0.3.11}
+\contentsline {section}{\numberline {4}Transfert de comp\IeC {\'e}tences}{16}{section.0.4}
+\contentsline {section}{\numberline {5}Bilan de comp\IeC {\'e}tences}{17}{section.0.5}
+\contentsline {subsection}{\numberline {5.1}Environnement professionnel}{17}{subsection.0.5.1}
+\contentsline {subsubsection}{\numberline {5.1.1}Connaissance de l'entreprise}{17}{subsubsection.0.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.2}Anglais et contexte international}{17}{subsubsection.0.5.1.2}
+\contentsline {subsection}{\numberline {5.2}Management}{18}{subsection.0.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Travail en \IeC {\'e}quipe et communication}{18}{subsubsection.0.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2}Gestion du temps et du stress}{18}{subsubsection.0.5.2.2}
+\contentsline {subsection}{\numberline {5.3}Conduite de projet}{19}{subsection.0.5.3}
+\contentsline {subsubsection}{\numberline {5.3.1}Analyse des besoins}{19}{subsubsection.0.5.3.1}
+\contentsline {subsubsection}{\numberline {5.3.2}Planification et m\IeC {\'e}thode de gestion de projet}{20}{subsubsection.0.5.3.2}
+\contentsline {subsection}{\numberline {5.4}Syst\IeC {\`e}mes d'Information}{20}{subsection.0.5.4}
+\contentsline {subsubsection}{\numberline {5.4.1}Architecture logicielle}{20}{subsubsection.0.5.4.1}
+\contentsline {subsection}{\numberline {5.5}Logiciels}{21}{subsection.0.5.5}
+\contentsline {subsubsection}{\numberline {5.5.1}Conception et d\IeC {\'e}veloppement d'applications}{21}{subsubsection.0.5.5.1}
+\contentsline {subsection}{\numberline {5.6}Syst\IeC {\`e}mes et R\IeC {\'e}seaux}{22}{subsection.0.5.6}
+\contentsline {subsubsection}{\numberline {5.6.1}Administration et maintenance d'OS}{22}{subsubsection.0.5.6.1}
+\contentsline {subsubsection}{\numberline {5.6.2}Protocole de Communication}{22}{subsubsection.0.5.6.2}
+\contentsline {subsection}{\numberline {5.7}Axe d'am\IeC {\'e}lioration}{23}{subsection.0.5.7}
+\contentsline {subsection}{\numberline {5.8}Conclusion}{23}{subsection.0.5.8}
+\contentsline {section}{\numberline {6}Conclusion}{24}{section.0.6}
+\contentsline {subsection}{\numberline {6.1}Atteintes des objectifs}{24}{subsection.0.6.1}
+\contentsline {subsection}{\numberline {6.2}Progression}{24}{subsection.0.6.2}
+\contentsline {subsection}{\numberline {6.3}Synth\IeC {\`e}se de parcours}{24}{subsection.0.6.3}
+\contentsline {chapter}{\numberline {A}RPC Method CWMP}{25}{appendix.A}
+\contentsline {chapter}{\numberline {B}Tableau d'auto-\IeC {\'e}valuation de comp\IeC {\'e}tences}{27}{appendix.B}
