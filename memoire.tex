@@ -39,7 +39,7 @@ pdfmenubar=false,
 \pagestyle{fancy}
 \lhead{Mémoire de fin d'études}
 \chead{}
-\rhead{\leftmark}
+\rhead{}
 \lfoot{Alexis BATTAGLI}
 \cfoot{\thepage}
 \rfoot{Août 2017}
@@ -83,10 +83,10 @@ pdfmenubar=false,
     \\[2cm]
 
     % Author and supervisor
-    \begin{minipage}{0.5\textwidth}
+    \begin{minipage}{0.55\textwidth}
       \begin{flushleft} \large
         \emph{Alternant :} Alexis \textsc{BATTAGLI}\\
-        \emph{Maitre d'apprentissage :}Marc \textsc{DOUET}\\
+        \emph{Maitre d'apprentissage:}Marc \textsc{DOUET}\\
         \emph{Tuteur académique : } Yan \textsc{MORET}
       \end{flushleft}
     \end{minipage}
@@ -185,7 +185,8 @@ périmètre de l'activité du Device Management. Ce parc contient les différent
 \paragraph*{}À mon arrivée le principal objectif été de me faire monter en compétence sur le domaine du device management, et plus particulièrement sur le protocole \gls{cwmp}. Il a donc été décidé de me faire tout d'abord monter en compétence sur le côté client, puis sur le côté serveur, par différentes missions que nous verrons par la suite\footnote{La partie intitulée "Monté en compétence sur le protocole \gls{cwmp}" est entièrement dédié à cet apprentissage du domaine du device management et du protocole \gls{cwmp}}. \\
 \subsubsection{Deuxième année}
 \paragraph*{}En début de deuxième année, ayant acquis les connaissances nécessaires lors de la première année, l'objectif était de me faire développer une application permettant de réaliser une série de test de client \gls{cwmp} de manière automatique\footnote{La partie intitulée "Conception et développement de TINK" est entièrement dédiée à la réalisation de cet outil.}.
-\paragraph*{}Un autre objectif de cette deuxième année a été d'encadrer un stagiaire de Master 2 Informatiques, Jean-Pierre ONA, qui devait travailler avec moi sur ce projet. Jean-Pierre a été présent de mars à aout 2016, son sujet de stage portait sur la conception et le développement d'une \gls{ihm} pour l'application de mon projet.\\
+\paragraph*{}Un autre objectif de cette deuxième année a été d'encadrer un stagiaire de Master 2 Informatiques, Jean-Pierre ONA, qui devait travailler avec moi sur ce projet. Jean-Pierre a été présent de mars à aout 2016, son sujet de stage portait sur la conception et le développement d'une \gls{ihm} pour l'application de mon projet.
+\paragraph*{}Enfin, l'un des objectifs de cette deuxième année était de trouver une personne pour prendre la suite du projet de test d'équipements. Pour ce faire je devais mener une activité de tutorat afin de faire monter en compétence une personne de l'équipe sur ce projet.\\
 \subsubsection{Troisième année}
 \paragraph*{}Enfin, pour la troisième année l'objectif était avant tous de continuer le développement et l'ajout de fonctionnalité à l'application réaliser l'année précédente, mais également de la mettre en production et d'en assurer l'aide aux utilisateurs.
 \paragraph*{}Un autre des objectifs était de prévoir mon départ en réalisant un transfert de compétence sur l'outil développer. Cela devait se faire par la rédaction de différentes documentation permettant aux futurs développeurs de continuer mon travail, ainsi que la présentation de l'outil aux équipes susceptibles de récupérer l'outil.\\
@@ -194,7 +195,22 @@ périmètre de l'activité du Device Management. Ce parc contient les différent
 \newpage
 \section{Monté en compétence sur le protocole CWMP}
 \subsection{Études d'équipements}
+\paragraph*{}Ce projet s'est déroulé tous au long de la première année. La personne avec qui je travaillais sur ce projet, Serge MARTIN, étant partie à la retraite en octobre 2015, et ayant dû me consacrer moi-même à d'autre missions, ce projet a été progressivement arrêté durant ma deuxième année. L'un des objectifs de ma deuxième année avait été de continuer ce projet le temps que l'on trouve une autre personne à former pour prendre la suite. Malheureusement, cet objectif n'a été que partiellement réalisé, faute de disponibilité de la part de la personne devant reprendre le projet, menant ainsi à l'arrêt du projet.
+\paragraph*{}Le projet consiste à faire différents tests sur des équipements Orange que l’on peut retrouver côté clients. Ces tests peuvent être demandés par d'autres équipes ou bien des membres même de \gls{care}. Ces demandes sont faites lorsque l'ont a besoins de savoir comment fonctionne certains équipements Orange au niveau \gls{cwmp}, connaître leurs comportements réseau dans certaines situations, ou encore récupérer une partie voir l'intégralité de leur \gls{datamodelg}. Le domaine de ces tests est très diversifié et peut prendre quelques heures, comme plusieurs semaines. \\
 \subsubsection{Présentation du réseau isolé}
+\paragraph*{}Afin de reproduire au mieux les conditions réels, avoir une visibilité intégrale sur les échanges ayant lieu, et un contrôle à tous les niveaux du réseau opérateur, nous avons décidé de mettre en place un réseau opérateur que l’on nomme « réseau isolé ». 
+\paragraph*{}Ce réseau est constitué d’un micro \gls{dslam} faisant la jonction entre la partie opérateur Orange et les clients Orange. Il permet de gérer les « clients » en leur attribuant une adresse \gls{ip} publique et en créant des lignes ADSL avec login et mot de passe attribués. 
+\paragraph*{}Du cotés clients, on retrouve les différents types de box internet auxquels sont connectés différents équipements clients, dans leur réseau \gls{lan}. 
+Du coté opérateur, nous avons mis en place un serveur \gls{dhcp} pour attribuer des adresses \gls{ip} aux machines du réseau opérateur. Un serveur \gls{dns} est également présent pour la résolution des noms, il est aussi utilisé par les box internet comme serveur \gls{dns} primaire. Nous avons aussi deux serveurs \gls{acs}. Un premier du même type que celui utilisé par Orange Labs pour les tests et recherches. Et un second, sous forme de Servlet Java\footnote{La servlet Java fait l'objet d'une sous-partie intitulé "Création d'un \gls{acs} Servlet", puisque j'ai également eu à travailler dessus durant ma première année} qui possède moins de fonctionnalités que le premier, mais qui est très utilisé pour les tests de comportement TR-069\footnote{Les test de comportement font l'objet de la partie intitulé "Test de comportement TR-069 d'équipement"}. Vous pouvez voir ci-dessous le plan du réseau isolé que nous utilisons et qui est décrit ci-dessus.
+\paragraph*{}
+%Import Images
+\begin{figure}[!ht]
+    \center
+    \includegraphics[scale=0.7]{./img/reseau_isole.png}
+    \caption{Schéma du réseau isolé}
+\end{figure}
+\paragraph*{}Nous ne rentrerons pas plus en détail sur ce réseau ici. Il faut également savoir que nous avons placé un hub du côté opérateur, entre les serveurs et le micro \gls{dslam} dans le but de pouvoir analyser le trafic réseau en plaçant un \gls{sniffeurreseaug} tel que Wireshark. 
+\paragraph*{}Il arrive parfois que certains équipements dialoguent via \gls{https} avec le serveur \gls{acs}. Ce type de protocole securisé nous empêche de faire certains tests liés au protocole \gls{cwmp}, puisque nous n’avons pas les certificats nécessaires au déchiffrage des trames \gls{https}. \\
 \subsubsection{Test DNS}
 \subsubsection{Test de comportement TR-069 d'équipement}
 \subsection{Étude de client CWMP}
@@ -278,7 +294,7 @@ périmètre de l'activité du Device Management. Ce parc contient les différent
 \subsubsection{Gestion et administration de SGBD}
 \paragraph*{}Les connaissances de gestion et administration de \gls{sgbd} ont été en premier acquises par les cours suivis en première année, puis renforcées en deuxième année. Cette fois-ci cela était pour des serveurs Oracle et non MySQL, permettant ainsi de voir les différences de ces deux types de \gls{sgbd}.
 \paragraph*{}Les projets de première année et deuxième année précédemment sités m'ont également permis de monter en compétences en administration de \gls{sgbd}, mais MYSQL cette fois.
-\paragraph*{}En entreprise, c'est par le projet \gls{tink} là encore, que j'ai pu renforcer mes compétences en administration de \gls{sgbd}, en particulier sur MySQL. J'ai pu créer différents compte, leur attribuer des droits en conséquences, et également réaliser des procédures stockées. \\
+\paragraph*{}En entreprise, c'est par le projet \gls{tink} là encore, que j'ai pu renforcer mes compétences en administration de \gls{sgbd}, en particulier sur MySQL. J'ai pu créer différents compte, leur attribuer des droit en conséquences, et également réaliser des procédures stockés. \\
 
 \subsection{Systèmes et Réseaux}
 \subsubsection{Administration et maintenance d'OS}
