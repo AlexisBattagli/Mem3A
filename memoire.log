@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.18)  17 JUL 2017 15:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.18)  18 JUL 2017 10:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -999,14 +999,14 @@ LaTeX Info: Redefining \nameref on input line 66.
 \openout3 = `memoire.out'.
 
 
-<./img/imt_mines_ales-bleu.jpg, id=257, 585.387pt x 358.4592pt>
+<./img/imt_mines_ales-bleu.jpg, id=269, 585.387pt x 358.4592pt>
 File: ./img/imt_mines_ales-bleu.jpg Graphic file (type jpg)
 
 <use ./img/imt_mines_ales-bleu.jpg>
 Package pdftex.def Info: ./img/imt_mines_ales-bleu.jpg used on input line 81.
 (pdftex.def)             Requested size: 117.07532pt x 71.69057pt.
 
-<./img/orange.jpg, id=258, 702.625pt x 702.625pt>
+<./img/orange.jpg, id=270, 702.625pt x 702.625pt>
 File: ./img/orange.jpg Graphic file (type jpg)
  <use ./img/orange.jpg>
 Package pdftex.def Info: ./img/orange.jpg used on input line 82.
@@ -1085,7 +1085,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 ] [7] [8]
-<./img/world_orange_2016.PNG, id=465, 603.0028pt x 332.74312pt>
+<./img/world_orange_2016.PNG, id=489, 603.0028pt x 332.74312pt>
 File: ./img/world_orange_2016.PNG Graphic file (type png)
 
 <use ./img/world_orange_2016.PNG>
@@ -1096,7 +1096,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 141--142
 
  []
 
-[10] <./img/DM-TR-069-screen.png, id=488, 665.48625pt x 312.16624pt>
+[10] <./img/DM-TR-069-screen.png, id=511, 665.48625pt x 312.16624pt>
 File: ./img/DM-TR-069-screen.png Graphic file (type png)
 
 <use ./img/DM-TR-069-screen.png>
@@ -1173,72 +1173,82 @@ Underfull \hbox (badness 10000) in paragraph at lines 276--280
  []
 
 [21]
-Underfull \hbox (badness 10000) in paragraph at lines 283--285
+Underfull \hbox (badness 10000) in paragraph at lines 283--286
 
  []
 
 [22]
-Underfull \hbox (badness 10000) in paragraph at lines 286--287
+Underfull \hbox (badness 10000) in paragraph at lines 287--290
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--290
+Underfull \hbox (badness 10000) in paragraph at lines 293--296
 
  []
 
-[23] [24] [25]
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 297--299
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 301--302
+
+ []
+
+[24] [25] [26]
 Annexe A.
 
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 326--328
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 338--340
  [][] 
  []
 
 
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 349--351
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 361--363
  [][] 
  []
 
-[26
+[27
 
-] [27]
+] [28]
 Annexe B.
-<./img/tableaux_cpt.PNG, id=627, 512.66531pt x 695.59875pt>
+<./img/tableaux_cpt.PNG, id=661, 512.66531pt x 695.59875pt>
 File: ./img/tableaux_cpt.PNG Graphic file (type png)
 
 <use ./img/tableaux_cpt.PNG>
-Package pdftex.def Info: ./img/tableaux_cpt.PNG used on input line 358.
+Package pdftex.def Info: ./img/tableaux_cpt.PNG used on input line 370.
 (pdftex.def)             Requested size: 461.3945pt x 626.0331pt.
 
-Overfull \hbox (6.15039pt too wide) in paragraph at lines 358--359
+Overfull \hbox (6.15039pt too wide) in paragraph at lines 370--371
  [] 
  []
 
-[28
+[29
 
 ]
 
-LaTeX Warning: Text page 29 contains only floats.
+LaTeX Warning: Text page 30 contains only floats.
 
-[29 <./img/tableaux_cpt.PNG>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 367.
- [30
+[30 <./img/tableaux_cpt.PNG>] [31
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 367.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 379.
+ [32]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 379.
  (./memoire.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 367.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 367.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 379.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 379.
 Package rerunfilecheck Info: File `memoire.out' has not changed.
-(rerunfilecheck)             Checksum: 065C14F3471772BC7793EEB8687C4159;4957.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 367.
+(rerunfilecheck)             Checksum: D518A0F3F31D55E54D9FE3D2C03492C6;5246.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 379.
  ) 
 Here is how much of TeX's memory you used:
- 15261 strings out of 494883
- 228055 string characters out of 6178692
- 381526 words of memory out of 5000000
- 18125 multiletter control sequences out of 15000+600000
+ 15333 strings out of 494883
+ 229187 string characters out of 6178692
+ 382894 words of memory out of 5000000
+ 18190 multiletter control sequences out of 15000+600000
  66668 words of font info for 48 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  46i,12n,49p,1940b,773s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1260,10 +1270,10 @@ are/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/
 lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texm
 f/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12
 .pfb>
-Output written on memoire.pdf (31 pages, 998949 bytes).
+Output written on memoire.pdf (33 pages, 1003187 bytes).
 PDF statistics:
- 719 PDF objects out of 1000 (max. 8388607)
- 665 compressed objects within 7 object streams
- 142 named destinations out of 1000 (max. 500000)
- 530 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 760 PDF objects out of 1000 (max. 8388607)
+ 703 compressed objects within 8 object streams
+ 149 named destinations out of 1000 (max. 500000)
+ 554 words of extra memory for PDF output out of 10000 (max. 10000000)
 
