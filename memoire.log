@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.18)  20 JUL 2017 15:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.18)  20 JUL 2017 15:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1085,7 +1085,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 ] [7] [8]
-<./img/world_orange_2016.PNG, id=603, 603.0028pt x 332.74312pt>
+<./img/world_orange_2016.PNG, id=621, 603.0028pt x 332.74312pt>
 File: ./img/world_orange_2016.PNG Graphic file (type png)
 
 <use ./img/world_orange_2016.PNG>
@@ -1096,7 +1096,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 141--142
 
  []
 
-[10] <./img/DM-TR-069-screen.png, id=626, 665.48625pt x 312.16624pt>
+[10] <./img/DM-TR-069-screen.png, id=644, 665.48625pt x 312.16624pt>
 File: ./img/DM-TR-069-screen.png Graphic file (type png)
 
 <use ./img/DM-TR-069-screen.png>
@@ -1142,7 +1142,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 199--200
 
  []
 
-[15] <./img/reseau_isole.png, id=739, 659.46375pt x 367.3725pt>
+[15] <./img/reseau_isole.png, id=757, 659.46375pt x 367.3725pt>
 File: ./img/reseau_isole.png Graphic file (type png)
 
 <use ./img/reseau_isole.png>
@@ -1199,14 +1199,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 252--253
 
  []
 
-<./img/acs_servlet_05.png, id=885, 486.81876pt x 134.5025pt>
+<./img/acs_servlet_05.png, id=902, 486.81876pt x 134.5025pt>
 File: ./img/acs_servlet_05.png Graphic file (type png)
 
 <use ./img/acs_servlet_05.png>
 Package pdftex.def Info: ./img/acs_servlet_05.png used on input line 262.
 (pdftex.def)             Requested size: 438.13283pt x 121.0511pt.
  [24] [25 <./img/acs_servlet_05.png>] [26]
-<./img/acs_servlet_06.png, id=931, 610.28pt x 653.44125pt>
+<./img/acs_servlet_06.png, id=948, 610.28pt x 653.44125pt>
 File: ./img/acs_servlet_06.png Graphic file (type png)
 
 <use ./img/acs_servlet_06.png>
@@ -1243,101 +1243,101 @@ Underfull \hbox (badness 10000) in paragraph at lines 307--308
 
  []
 
-[33] [34] <./img/choix_karma.png, id=1009, 501.875pt x 401.5pt>
+[33] [34] <./img/choix_karma.png, id=1051, 501.875pt x 401.5pt>
 File: ./img/choix_karma.png Graphic file (type png)
 
 <use ./img/choix_karma.png>
-Package pdftex.def Info: ./img/choix_karma.png used on input line 329.
+Package pdftex.def Info: ./img/choix_karma.png used on input line 328.
 (pdftex.def)             Requested size: 451.68332pt x 361.34665pt.
  [35 <./img/choix_karma.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 341--345
+Underfull \hbox (badness 10000) in paragraph at lines 332--333
 
  []
 
 [36] [37]
-Underfull \hbox (badness 10000) in paragraph at lines 372--375
+Underfull \hbox (badness 10000) in paragraph at lines 353--356
 
  []
 
 [38] [39]
-Underfull \hbox (badness 10000) in paragraph at lines 385--386
+Underfull \hbox (badness 10000) in paragraph at lines 366--367
 
  []
 
 [40] [41] [42]
-Underfull \hbox (badness 10000) in paragraph at lines 418--419
+Underfull \hbox (badness 10000) in paragraph at lines 399--400
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 421--422
+Underfull \hbox (badness 10000) in paragraph at lines 402--403
 
  []
 
 [43] [44]
-Underfull \hbox (badness 10000) in paragraph at lines 428--429
+Underfull \hbox (badness 10000) in paragraph at lines 409--410
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 432--433
+Underfull \hbox (badness 10000) in paragraph at lines 413--414
 
  []
 
 [45]
-Underfull \hbox (badness 10000) in paragraph at lines 437--438
+Underfull \hbox (badness 10000) in paragraph at lines 418--419
 
  []
 
 [46]
-Underfull \hbox (badness 10000) in paragraph at lines 441--442
+Underfull \hbox (badness 10000) in paragraph at lines 422--423
 
  []
 
 [47]
-Underfull \hbox (badness 10000) in paragraph at lines 447--448
+Underfull \hbox (badness 10000) in paragraph at lines 428--429
 
  []
 
 [48]
-Underfull \hbox (badness 10000) in paragraph at lines 454--455
+Underfull \hbox (badness 10000) in paragraph at lines 435--436
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 460--461
+Underfull \hbox (badness 10000) in paragraph at lines 441--442
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 464--465
+Underfull \hbox (badness 10000) in paragraph at lines 445--446
 
  []
 
 [49]
-Underfull \hbox (badness 10000) in paragraph at lines 470--471
+Underfull \hbox (badness 10000) in paragraph at lines 451--452
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 473--474
+Underfull \hbox (badness 10000) in paragraph at lines 454--455
 
  []
 
 [50]
-Underfull \hbox (badness 10000) in paragraph at lines 476--477
+Underfull \hbox (badness 10000) in paragraph at lines 457--458
 
  []
 
 [51] [52]
 Annexe A.
 
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 511--513
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 492--494
  [][] 
  []
 
 
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 534--536
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 515--517
  [][] 
  []
 
@@ -1345,14 +1345,14 @@ Overfull \hbox (28.45273pt too wide) in paragraph at lines 534--536
 
 ] [54]
 Annexe B.
-<./img/tableaux_cpt.PNG, id=1135, 512.66531pt x 695.59875pt>
+<./img/tableaux_cpt.PNG, id=1231, 512.66531pt x 695.59875pt>
 File: ./img/tableaux_cpt.PNG Graphic file (type png)
 
 <use ./img/tableaux_cpt.PNG>
-Package pdftex.def Info: ./img/tableaux_cpt.PNG used on input line 543.
+Package pdftex.def Info: ./img/tableaux_cpt.PNG used on input line 524.
 (pdftex.def)             Requested size: 461.3945pt x 626.0331pt.
 
-Overfull \hbox (6.15039pt too wide) in paragraph at lines 543--544
+Overfull \hbox (6.15039pt too wide) in paragraph at lines 524--525
  [] 
  []
 
@@ -1365,30 +1365,29 @@ LaTeX Warning: Text page 56 contains only floats.
 [56 <./img/tableaux_cpt.PNG>] [57
 
 
-]
-Overfull \hbox (2.61572pt too wide) in paragraph at lines 550--550
+] [58]
+Overfull \hbox (2.61572pt too wide) in paragraph at lines 531--531
 []\T1/lmr/m/n/12 Réunion quo-ti-dienne d'une quin-zaine de mi-nutes au maxi-
  []
 
-[58]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 552.
- [59]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 552.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 533.
+[59]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 533.
  (./memoire.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 552.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 552.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 533.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 533.
 Package rerunfilecheck Info: File `memoire.out' has not changed.
 (rerunfilecheck)             Checksum: B15A82640AB3204F2C96A4E97F05F2D0;5648.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 552.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 533.
  ) 
 Here is how much of TeX's memory you used:
- 15648 strings out of 494883
- 234435 string characters out of 6178692
- 393269 words of memory out of 5000000
- 18439 multiletter control sequences out of 15000+600000
+ 15656 strings out of 494883
+ 234559 string characters out of 6178692
+ 395698 words of memory out of 5000000
+ 18443 multiletter control sequences out of 15000+600000
  66668 words of font info for 48 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 46i,12n,55p,1940b,767s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,12n,67p,1940b,773s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{glo:apig} has been referenced but does not exist,
  replaced by a fixed one
 
@@ -1398,10 +1397,10 @@ are/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/
 lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texm
 f/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12
 .pfb>
-Output written on memoire.pdf (60 pages, 1375026 bytes).
+Output written on memoire.pdf (60 pages, 1379797 bytes).
 PDF statistics:
- 1292 PDF objects out of 1440 (max. 8388607)
- 1199 compressed objects within 12 object streams
- 211 named destinations out of 1000 (max. 500000)
+ 1404 PDF objects out of 1440 (max. 8388607)
+ 1309 compressed objects within 14 object streams
+ 215 named destinations out of 1000 (max. 500000)
  614 words of extra memory for PDF output out of 10000 (max. 10000000)
 
