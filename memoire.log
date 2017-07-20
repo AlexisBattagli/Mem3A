@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.18)  20 JUL 2017 13:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.18)  20 JUL 2017 13:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1055,7 +1055,7 @@ jpg> <./img/orange.jpg>] (./memoire.tocpdfTeX warning (ext4): destination with
 the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.28 ...ilit\IeC {\'e}}{34}{subsubsection.0.3.4.2}
+l.28 ...ine {3.4}Conception}{34}{subsection.0.3.4}
                                                    [1
 
 ]
@@ -1244,79 +1244,79 @@ Underfull \hbox (badness 10000) in paragraph at lines 307--308
  []
 
 [33] [34] [35]
-Underfull \hbox (badness 10000) in paragraph at lines 336--337
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 339--340
-
- []
-
-[36] [37]
-Underfull \hbox (badness 10000) in paragraph at lines 346--347
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 350--351
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 353--354
+
+ []
+
+[36] [37]
+Underfull \hbox (badness 10000) in paragraph at lines 360--361
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--365
+
+ []
+
 [38]
-Underfull \hbox (badness 10000) in paragraph at lines 355--356
+Underfull \hbox (badness 10000) in paragraph at lines 369--370
 
  []
 
 [39]
-Underfull \hbox (badness 10000) in paragraph at lines 359--360
+Underfull \hbox (badness 10000) in paragraph at lines 373--374
 
  []
 
 [40]
-Underfull \hbox (badness 10000) in paragraph at lines 365--366
+Underfull \hbox (badness 10000) in paragraph at lines 379--380
 
  []
 
 [41]
-Underfull \hbox (badness 10000) in paragraph at lines 372--373
+Underfull \hbox (badness 10000) in paragraph at lines 386--387
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 378--379
+Underfull \hbox (badness 10000) in paragraph at lines 392--393
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 382--383
+Underfull \hbox (badness 10000) in paragraph at lines 396--397
 
  []
 
 [42]
-Underfull \hbox (badness 10000) in paragraph at lines 388--389
+Underfull \hbox (badness 10000) in paragraph at lines 402--403
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 391--392
+Underfull \hbox (badness 10000) in paragraph at lines 405--406
 
  []
 
 [43]
-Underfull \hbox (badness 10000) in paragraph at lines 394--395
+Underfull \hbox (badness 10000) in paragraph at lines 408--409
 
  []
 
 [44] [45]
 Annexe A.
 
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 429--431
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 443--445
  [][] 
  []
 
 
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 452--454
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 466--468
  [][] 
  []
 
@@ -1324,14 +1324,14 @@ Overfull \hbox (28.45273pt too wide) in paragraph at lines 452--454
 
 ] [47]
 Annexe B.
-<./img/tableaux_cpt.PNG, id=1063, 512.66531pt x 695.59875pt>
+<./img/tableaux_cpt.PNG, id=1069, 512.66531pt x 695.59875pt>
 File: ./img/tableaux_cpt.PNG Graphic file (type png)
 
 <use ./img/tableaux_cpt.PNG>
-Package pdftex.def Info: ./img/tableaux_cpt.PNG used on input line 461.
+Package pdftex.def Info: ./img/tableaux_cpt.PNG used on input line 475.
 (pdftex.def)             Requested size: 461.3945pt x 626.0331pt.
 
-Overfull \hbox (6.15039pt too wide) in paragraph at lines 461--462
+Overfull \hbox (6.15039pt too wide) in paragraph at lines 475--476
  [] 
  []
 
@@ -1344,22 +1344,22 @@ LaTeX Warning: Text page 49 contains only floats.
 [49 <./img/tableaux_cpt.PNG>] [50
 
 
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 470.
- [51]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 470.
+] [51]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 484.
+ [52]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 484.
  (./memoire.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 470.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 470.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 484.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 484.
 Package rerunfilecheck Info: File `memoire.out' has not changed.
-(rerunfilecheck)             Checksum: 790D304E77D7E062B3498C6A6B77A3B4;5648.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 470.
+(rerunfilecheck)             Checksum: 3DC596B8209039AEE8DBA2EA087F36BD;5648.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 484.
  ) 
 Here is how much of TeX's memory you used:
- 15624 strings out of 494883
- 234087 string characters out of 6178692
- 392276 words of memory out of 5000000
- 18430 multiletter control sequences out of 15000+600000
+ 15631 strings out of 494883
+ 234196 string characters out of 6178692
+ 392405 words of memory out of 5000000
+ 18433 multiletter control sequences out of 15000+600000
  66668 words of font info for 48 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  46i,12n,55p,1940b,767s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1372,10 +1372,10 @@ are/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/
 lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texm
 f/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12
 .pfb>
-Output written on memoire.pdf (52 pages, 1345803 bytes).
+Output written on memoire.pdf (53 pages, 1347092 bytes).
 PDF statistics:
- 1203 PDF objects out of 1440 (max. 8388607)
- 1120 compressed objects within 12 object streams
- 197 named destinations out of 1000 (max. 500000)
+ 1217 PDF objects out of 1440 (max. 8388607)
+ 1133 compressed objects within 12 object streams
+ 201 named destinations out of 1000 (max. 500000)
  609 words of extra memory for PDF output out of 10000 (max. 10000000)
 

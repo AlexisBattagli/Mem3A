@@ -22,17 +22,17 @@
 \contentsline {section}{\numberline {3}Conception et d\IeC {\'e}veloppement de TINK}{31}{section.0.3}
 \contentsline {subsection}{\numberline {3.1}Contexte}{31}{subsection.0.3.1}
 \contentsline {subsection}{\numberline {3.2}Pr\IeC {\'e}sentation}{32}{subsection.0.3.2}
-\contentsline {subsection}{\numberline {3.3}M\IeC {\'e}thode de projet}{34}{subsection.0.3.3}
-\contentsline {subsection}{\numberline {3.4}Travail de pr\IeC {\'e}paration}{34}{subsection.0.3.4}
-\contentsline {subsubsection}{\numberline {3.4.1}Recherche de solution technique}{34}{subsubsection.0.3.4.1}
-\contentsline {subsubsection}{\numberline {3.4.2}Analyse de faisabilit\IeC {\'e}}{34}{subsubsection.0.3.4.2}
-\contentsline {subsection}{\numberline {3.5}Conception}{34}{subsection.0.3.5}
-\contentsline {subsection}{\numberline {3.6}R\IeC {\'e}alisation}{34}{subsection.0.3.6}
-\contentsline {subsubsection}{\numberline {3.6.1}Travail en \IeC {\'e}quipe}{34}{subsubsection.0.3.6.1}
-\contentsline {subsubsection}{\numberline {3.6.2}D\IeC {\'e}veloppement}{34}{subsubsection.0.3.6.2}
-\contentsline {subsection}{\numberline {3.7}D\IeC {\'e}ploiement}{34}{subsection.0.3.7}
-\contentsline {subsubsection}{\numberline {3.7.1}Environnement Kermit}{34}{subsubsection.0.3.7.1}
-\contentsline {subsubsection}{\numberline {3.7.2}TINK sur Kermit}{34}{subsubsection.0.3.7.2}
+\contentsline {subsection}{\numberline {3.3}Travail de pr\IeC {\'e}paration}{34}{subsection.0.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}Recherche de solution technique}{34}{subsubsection.0.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.2}Analyse de faisabilit\IeC {\'e}}{34}{subsubsection.0.3.3.2}
+\contentsline {subsection}{\numberline {3.4}Conception}{34}{subsection.0.3.4}
+\contentsline {subsection}{\numberline {3.5}R\IeC {\'e}alisation}{34}{subsection.0.3.5}
+\contentsline {subsubsection}{\numberline {3.5.1}Travail en \IeC {\'e}quipe}{34}{subsubsection.0.3.5.1}
+\contentsline {subsubsection}{\numberline {3.5.2}D\IeC {\'e}veloppement}{34}{subsubsection.0.3.5.2}
+\contentsline {subsection}{\numberline {3.6}D\IeC {\'e}ploiement}{34}{subsection.0.3.6}
+\contentsline {subsubsection}{\numberline {3.6.1}Environnement Kermit}{34}{subsubsection.0.3.6.1}
+\contentsline {subsubsection}{\numberline {3.6.2}TINK sur Kermit}{34}{subsubsection.0.3.6.2}
+\contentsline {subsection}{\numberline {3.7}M\IeC {\'e}thode de projet}{34}{subsection.0.3.7}
 \contentsline {subsection}{\numberline {3.8}Lancement de l'application}{34}{subsection.0.3.8}
 \contentsline {subsubsection}{\numberline {3.8.1}Communication et pr\IeC {\'e}sentation}{34}{subsubsection.0.3.8.1}
 \contentsline {subsubsection}{\numberline {3.8.2}Support utilisateur}{34}{subsubsection.0.3.8.2}
