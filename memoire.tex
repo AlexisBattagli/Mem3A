@@ -308,7 +308,7 @@ présenter pour les tests plus poussés. \\
 
 \subsection{Déploiement}
 \paragraph*{}Sachant que \gls{tink} se veut être une solution d'automatisation de test en ligne, il nous a fallu chercher une solution d'hébergement. Pour la suite du document, il est important d'expliquer et apporter des précisions sur cette solution de déploiement qu'est \gls{kermitg}. \\
-\subsubsection{Qu'est ce que Kermit}
+\subsubsection{Qu'est-ce que Kermit ?}
 \paragraph*{} \gls{kermitg} est un projet interne à Orange, basé sur l'outil OpenShift de RedHat Enterprise. Ce projet interne Orange consiste à aider les développeurs dans leur cycle agile, en fournissant une plateforme de \gls{paas} permettant de faire rapidement de l'intégration et du déploiement continue. 
 \paragraph*{}Les solutions \gls{paas} sont avant tous des solutions d'infrastructure cloud. Le fait que les applications soient hébergées dans le cloud offre la possibilité d'avoir un accès rapide et simple aux ressources physiques, et de pouvoir réduire ou augmenter les ressources de calcul à moindre coût. De plus, la solution de \gls{paas} se basant sur les conteneur \gls{dockerg}, cela permet une meilleur isolation des applications, ainsi qu'une simplification du déploiement de celles-ci. L'utilisation de \gls{dockerg} encourage également les développeurs à faire des mircro services. Enfin, l'ensemble des bénéfices apportés par les solutions \gls{paas} permettent de favoriser le DevOps.
 \paragraph*{}On peut donc rapidement déployer notre application de manière automatique, dans différents langages de programmation, le tous basé, sur la solution de conteneurisaiton \gls{dockerg}. Ces conteneurs sont facilement instanciables soit via une \gls{ihm} en ligne, soit avec un outil en ligne de commande. Les conteneurs sont orchestrés et gérés par Kubernates. \\
@@ -373,12 +373,29 @@ commencé à mettre en place la gestion de projet de manière agile. Cela s’es
 \paragraph*{}Les second et troisième \gls{sprintg} n’ont concerné que le portail web
 puisque je n’étais pas présent en entreprise. L’interface et le design ont été revus et différentes fonctionnalités d’ergonomie ont été rajoutées.
 \paragraph*{} A mon retour en juillet 2016, nous avons lancé le quatrième \gls{sprintg}, qui devait initialement aboutir à une première version de la plateforme, qui permettait la création d’un utilisateur ; l’ajout d’équipements ; la création d’un plan de test ; et le déroulement de celui-ci lorsque l’équipement viendrait établir une session \gls{cwmp} avec notre outil. Cependant, nous avons revu l’architecture globale du logiciel, et avons, à la suite de réflexions communes, décidé de reprendre la manière dont communiquent les modules entre eux, lesquels peuvent discuter avec la base de données ; et de clarifier de nouveau les rôles de chacun entre Jean-Pierre ONA et moi-même. La fin de ce \gls{sprintg} a été reportée à mi-août 2016 avec une diminution du nombre attendu de tests réalisables, et une redéfinition plus propre de l’architecture logicielle, ce qui permettrait de reprendre le code plus facilement dans le futur.
-\paragraph*{}Après le départ de Jean-Pierre ONA, nous avons arrêter d'effectuer des \gls{sprintg}, tous en continuant de réaliser les différentes \gls{userstoriesg} que nous avions précédemment planifiées. \\
+\paragraph*{}Après le départ de Jean-Pierre ONA, nous avons arrêté d'effectuer des \gls{sprintg}, tous en continuant de réaliser les différentes \gls{userstoriesg} que nous avions précédemment planifiées. \\
 
-\subsection{Conception}
-\subsubsection{Architecture}
-\subsubsection{Modèle de tests}
-
+\subsection{Conception} 
+\paragraph*{}Les différents points de conception ont été réalisés par Jean-Pierre ONA et moi-même, puis présenté et soumis à Matthieu ANNE et Marc DOUET, avant de pouvoir être implémenté. Il n'a pas été exigé de nous que nous proposions dès le premier \gls{sprintg} une architecture compléte répondant à l'ensemble des problèmes techniques des futurs \gls{sprintg}. Au contraire, à chaque \gls{sprintg} nous devions  modifier, et réviser le cas échéant, ces points de conception\footnote{Les points de conception sont ceux présentés dans cette partie: Modèle relationnel de données, Architecture logiciel et Modélisation des test} en analysant les nouveaux objectifs. En revanche, nous devions défendre et argumenter nos choix de conception à chaque révision et modification.
+\paragraph*{}La phase de conception de l'outil à eu lieu durant la période de mars 2016 à juillet 2016. Certaines évolutions ont eu lieu au cours de la troisième année pour mettre en place de nouvelles fonctionnalités, ou en renforcer d'autre, mais elles sont restées baser sur l'existant. Comme mentionné précédemment, nous avons travaillé en méthode agile, l'architecture logiciel et le modèle relationnel de données de l'application ont donc été fortement amené à évoluer au fur et à mesure des \gls{sprintg}, pour finalement être fixé fin juillet 2016 à ce qui est présenté ci-dessous. \\
+\subsubsection{Modélisation des tests}
+\paragraph*{}
+\subsubsection{Modèle relationnel de données}
+\paragraph*{}
+\subsubsection{Architecture logiciel}
+\paragraph*{}Trois modules composent la plateforme \gls{tink}: GUI, TestManager et CWMP\_I. Ces trois modules sont indépendants les un des autres et communiquent uniquement par les \gls{api} qu'ils exposent. 
+\begin{itemize}
+\item GUI: Permet aux utilisateurs d'intéragir avec \gls{tink} à travers une \gls{ihm}. Ce module est responsable des intéractions classique tels que la création et modification d'un compte utilisateur, la création de test, la consultation et l'exportation de rapport de test, ou encore l'ajout d'un équipement à tester. Il peut communiquer avec les parties utilisateur, équipement et type de test de la base de données. Il a été décidé qu'il n'avais pas de besoins à connaître la logique de plan de test. De plus les informations sur les tests lui sont fournis par le module TestManager. 
+\item CWMP\_I: Permet aux équipements de communiquer avec \gls{tink} à travers le module X69 qui provient directement des dépôts de \gls{karmabug}. Le fait que ce module est importé par une dépendance, permet de faciliter sa mise à jour en cas de développement de nouvelles fonctionnalités sur ce dernier. Il n'a aucun besoin de communiquer avec la base de données car il est uniquement en charge des interactions \gls{cwmp} avec les équipements se présentant à \gls{tink}. Il récupère les méthodes et paramètres à envoyer aux équipements grâce aux \gls{api} du module TestManager. De la même façon, il envoi les messages \gls{cwmp} reçu et pars par le module X69 au module TestManager pour leur analyse et la validation des tests. 
+\item TestManager: Permet de connaître la logique de déroulement des test. Il porte également l'intéligence pour la validation des tests. Il peut communiquer les résultats des tests au module GUI à travers ses \gls{api}, et envoyer de la même façon les méthodes et paramètres \gls{cwmp} au module CWMP\_I qui doivent être utilisés pour former les requête et réponse \gls{cwmp} envoyées aux équipements. Il n'a pas connaissance des utilisateurs et ne communique donc pas avec cette partie de la base de données.
+\end{itemize}
+Ci-dessous nous pouvons voir un schéma de l'architecture logiciel de \gls{tink}. 
+%Import Images
+\begin{figure}[!ht]
+    \center
+    \includegraphics[scale=0.87]{./img/archi_logi.png}
+    \caption{Architecture logiciel de \gls{tink}}
+\end{figure}
 \subsection{Réalisation}
 \subsubsection{Travail en équipe}
 \subsubsection{Développement}
