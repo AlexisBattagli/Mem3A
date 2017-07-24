@@ -396,12 +396,12 @@ puisque je n’étais pas présent en entreprise. L’interface et le design ont
 \item \texttt{message}: Table où sont stockés les message générer par l'analyse d'un test, constituant le rapport d'un plan de test.
 \item \texttt{test\_type}: Table stockant les différents type de test pouvant être sélectionner par l'utilisateur lors de la création d'un plan de test. Il contient les caractéristique de chaque test.
 \item \texttt{step}: Table permettant de connaître les échange \gls{cwmp} constituant un test donné. 
-\item \texttt{parameter}: Table permettant de savoir paramètre passé à la méthode \gls{cwmp} qui sera envoyé à l'équipement.
+\item \texttt{parameter}: Table permettant de savoir quel(s) paramètre(s) passer à la méthode \gls{cwmp} qui sera envoyé à l'équipement.
 \end{itemize}
 %Import Images
 \begin{figure}[!t]
     \center
-    \includegraphics[angle=90,scale=0.5]{./img/db_schema.png}
+    \includegraphics[scale=0.69]{./img/db_schema.png}
     \caption{Modèle relationnel de données}
 \end{figure}
 \paragraph*{}Ces tables forment quatre parties utilisées par les modules qui constituent l'architecture logiciel de \gls{tink}. La partie User, composé de la table user, la partie Device composé de la table device, la partie TestType composé de la table test\_type, et la partie Test composé des tables test\_plan, test, step, message et parameter. \\
