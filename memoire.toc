@@ -32,7 +32,7 @@
 \contentsline {subsection}{\numberline {3.6}Conception}{42}{subsection.0.3.6}
 \contentsline {subsubsection}{\numberline {3.6.1}Mod\IeC {\'e}lisation des tests}{42}{subsubsection.0.3.6.1}
 \contentsline {subsubsection}{\numberline {3.6.2}Mod\IeC {\`e}le relationnel de donn\IeC {\'e}es}{43}{subsubsection.0.3.6.2}
-\contentsline {subsubsection}{\numberline {3.6.3}Architecture logiciel}{45}{subsubsection.0.3.6.3}
+\contentsline {subsubsection}{\numberline {3.6.3}Architecture logicielle}{45}{subsubsection.0.3.6.3}
 \contentsline {subsection}{\numberline {3.7}R\IeC {\'e}alisation}{46}{subsection.0.3.7}
 \contentsline {subsubsection}{\numberline {3.7.1}Travail en \IeC {\'e}quipe}{46}{subsubsection.0.3.7.1}
 \contentsline {subsubsection}{\numberline {3.7.2}D\IeC {\'e}veloppement}{46}{subsubsection.0.3.7.2}
