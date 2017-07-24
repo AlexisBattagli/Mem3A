@@ -387,13 +387,30 @@ puisque je n’étais pas présent en entreprise. L’interface et le design ont
 \item Un \texttt{Parameter}, représente un paramètre envoyé dans une méthode \gls{cwmp}. Ils peuvent à la fois être donnés par l'utilisateur, mais aussi défini par défaut par Orange, selon ce qui doit être testé. Une \texttt{Step} peut avoir plusieurs paramètres comme aucun.
 \end{itemize} 
 \subsubsection{Modèle relationnel de données}
-\paragraph*{}
+\paragraph*{}Le modèle relationnel de données sur lequel nous nous sommes arrêtés est formé de huit tables:
+\begin{itemize}
+\item \texttt{user}: Table permettant de sauvegarder les données utilisateur.
+\item \texttt{device}: Table permettant à un utilisateur associé d'enregistrer un ou plusieurs équipement à tester.
+\item \texttt{test\_plan}: Table permettant à un utilisateur de créer un scénario de tests à exécuter pour un équipement donné.
+\item \texttt{test}: Table permettant de retenir un test composant un scénario de tests.
+\item \texttt{message}: Table où sont stockés les message générer par l'analyse d'un test, constituant le rapport d'un plan de test.
+\item \texttt{test\_type}: Table stockant les différents type de test pouvant être sélectionner par l'utilisateur lors de la création d'un plan de test. Il contient les caractéristique de chaque test.
+\item \texttt{step}: Table permettant de connaître les échange \gls{cwmp} constituant un test donné. 
+\item \texttt{parameter}: Table permettant de savoir paramètre passé à la méthode \gls{cwmp} qui sera envoyé à l'équipement.
+\end{itemize}
+%Import Images
+\begin{figure}[!t]
+    \center
+    \includegraphics[angle=90,scale=0.5]{./img/db_schema.png}
+    \caption{Modèle relationnel de données}
+\end{figure}
+\paragraph*{}Ces tables forment quatre parties utilisées par les modules qui constituent l'architecture logiciel de \gls{tink}. La partie User, composé de la table user, la partie Device composé de la table device, la partie TestType composé de la table test\_type, et la partie Test composé des tables test\_plan, test, step, message et parameter. \\
 \subsubsection{Architecture logiciel}
 \paragraph*{}Trois modules composent la plateforme \gls{tink}: GUI, TestManager et CWMP\_I. Ces trois modules sont indépendants les un des autres et communiquent uniquement par les \gls{api} qu'ils exposent. 
 \begin{itemize}
-\item GUI: Permet aux utilisateurs d'intéragir avec \gls{tink} à travers une \gls{ihm}. Ce module est responsable des intéractions classiques tels que la création et modification d'un compte utilisateur, la création de test, la consultation et l'exportation de rapport de test, ou encore l'ajout d'un équipement à tester. Il peut communiquer avec les parties utilisateur, équipement et type de test de la base de données. Il a été décidé qu'il n'avais pas de besoins à connaître la logique de plan de test. De plus les informations sur les tests lui sont fournis par le module TestManager. 
-\item CWMP\_I: Permet aux équipements de communiquer avec \gls{tink} à travers le module X69 qui provient directement des dépôts de \gls{karmabug}. Le fait que ce module est importé par une dépendance, permet de faciliter sa mise à jour en cas de développement de nouvelles fonctionnalités sur ce dernier. Il n'a aucun besoin de communiquer avec la base de données car il est uniquement en charge des interactions \gls{cwmp} avec les équipements se présentant à \gls{tink}. Il récupère les méthodes et paramètres à envoyer aux équipements grâce aux \gls{api} du module TestManager. De la même façon, il envoi les messages \gls{cwmp} reçu et pars par le module X69 au module TestManager pour leur analyse et la validation des tests. 
-\item TestManager: Permet de connaître la logique de déroulement des test. Il porte également l'intelligence pour la validation des tests. Il peut communiquer les résultats des tests au module GUI à travers ses \gls{api}, et envoyer de la même façon les méthodes et paramètres \gls{cwmp} au module CWMP\_I qui doivent être utilisés pour former les requête et réponse \gls{cwmp} envoyées aux équipements. Il n'a pas connaissance des utilisateurs et ne communique donc pas avec cette partie de la base de données.
+\item \texttt{GUI}: Permet aux utilisateurs d'intéragir avec \gls{tink} à travers une \gls{ihm}. Ce module est responsable des intéractions classiques tels que la création et modification d'un compte utilisateur, la création de test, la consultation et l'exportation de rapport de test, ou encore l'ajout d'un équipement à tester. Il peut communiquer avec les parties utilisateur, équipement et type de test de la base de données. Il a été décidé qu'il n'avais pas de besoins à connaître la logique de plan de test. De plus les informations sur les tests lui sont fournis par le module TestManager. 
+\item \texttt{CWMP\_I}: Permet aux équipements de communiquer avec \gls{tink} à travers le module X69 qui provient directement des dépôts de \gls{karmabug}. Le fait que ce module est importé par une dépendance, permet de faciliter sa mise à jour en cas de développement de nouvelles fonctionnalités sur ce dernier. Il n'a aucun besoin de communiquer avec la base de données car il est uniquement en charge des interactions \gls{cwmp} avec les équipements se présentant à \gls{tink}. Il récupère les méthodes et paramètres à envoyer aux équipements grâce aux \gls{api} du module TestManager. De la même façon, il envoi les messages \gls{cwmp} reçu et pars par le module X69 au module TestManager pour leur analyse et la validation des tests. 
+\item \texttt{TestManager}: Permet de connaître la logique de déroulement des test. Il porte également l'intelligence pour la validation des tests. Il peut communiquer les résultats des tests au module GUI à travers ses \gls{api}, et envoyer de la même façon les méthodes et paramètres \gls{cwmp} au module CWMP\_I qui doivent être utilisés pour former les requête et réponse \gls{cwmp} envoyées aux équipements. Il n'a pas connaissance des utilisateurs et ne communique donc pas avec cette partie de la base de données.
 \end{itemize}
 Ci-dessous nous pouvons voir un schéma de l'architecture logiciel de \gls{tink}. 
 %Import Images
