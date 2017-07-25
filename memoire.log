@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.18)  25 JUL 2017 09:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.18)  25 JUL 2017 12:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1319,79 +1319,79 @@ Underfull \hbox (badness 10000) in paragraph at lines 435--436
  []
 
 [47] [48] [49]
-Underfull \hbox (badness 10000) in paragraph at lines 457--458
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 460--461
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 463--464
+
+ []
+
 [50] [51]
-Underfull \hbox (badness 10000) in paragraph at lines 467--468
+Underfull \hbox (badness 10000) in paragraph at lines 470--471
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 471--472
+Underfull \hbox (badness 10000) in paragraph at lines 474--475
 
  []
 
 [52]
-Underfull \hbox (badness 10000) in paragraph at lines 476--477
+Underfull \hbox (badness 10000) in paragraph at lines 479--480
 
  []
 
 [53]
-Underfull \hbox (badness 10000) in paragraph at lines 480--481
+Underfull \hbox (badness 10000) in paragraph at lines 483--484
 
  []
 
 [54]
-Underfull \hbox (badness 10000) in paragraph at lines 486--487
+Underfull \hbox (badness 10000) in paragraph at lines 489--490
 
  []
 
 [55]
-Underfull \hbox (badness 10000) in paragraph at lines 493--494
+Underfull \hbox (badness 10000) in paragraph at lines 496--497
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 499--500
+Underfull \hbox (badness 10000) in paragraph at lines 502--503
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 503--504
+Underfull \hbox (badness 10000) in paragraph at lines 506--507
 
  []
 
 [56]
-Underfull \hbox (badness 10000) in paragraph at lines 509--510
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 512--513
 
  []
 
-[57]
+
 Underfull \hbox (badness 10000) in paragraph at lines 515--516
+
+ []
+
+[57]
+Underfull \hbox (badness 10000) in paragraph at lines 518--519
 
  []
 
 [58] [59]
 Annexe A.
 
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 550--552
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 553--555
  [][] 
  []
 
 
-Overfull \hbox (28.45273pt too wide) in paragraph at lines 573--575
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 576--578
  [][] 
  []
 
@@ -1403,10 +1403,10 @@ Annexe B.
 File: ./img/tableaux_cpt.PNG Graphic file (type png)
 
 <use ./img/tableaux_cpt.PNG>
-Package pdftex.def Info: ./img/tableaux_cpt.PNG used on input line 582.
+Package pdftex.def Info: ./img/tableaux_cpt.PNG used on input line 585.
 (pdftex.def)             Requested size: 461.3945pt x 626.0331pt.
 
-Overfull \hbox (6.15039pt too wide) in paragraph at lines 582--583
+Overfull \hbox (6.15039pt too wide) in paragraph at lines 585--586
  [] 
  []
 
@@ -1420,20 +1420,20 @@ LaTeX Warning: Text page 63 contains only floats.
 
 
 ] [65]
-Overfull \hbox (2.61572pt too wide) in paragraph at lines 589--589
+Overfull \hbox (2.61572pt too wide) in paragraph at lines 592--592
 []\T1/lmr/m/n/12 Réunion quo-ti-dienne d'une quin-zaine de mi-nutes au maxi-
  []
 
 [66]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 591.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 594.
  [67]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 591.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 594.
  (./memoire.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 591.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 591.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 594.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 594.
 Package rerunfilecheck Info: File `memoire.out' has not changed.
 (rerunfilecheck)             Checksum: C84C9AB095C1EDE41F28648448F7EBAA;5920.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 591.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 594.
  ) 
 Here is how much of TeX's memory you used:
  15778 strings out of 494883
@@ -1449,7 +1449,7 @@ share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/publi
 c/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/te
 xmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri
 12.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on memoire.pdf (68 pages, 1518781 bytes).
+Output written on memoire.pdf (68 pages, 1518800 bytes).
 PDF statistics:
  1587 PDF objects out of 1728 (max. 8388607)
  1476 compressed objects within 15 object streams
