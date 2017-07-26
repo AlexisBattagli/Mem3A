@@ -321,7 +321,10 @@ présenter pour les tests plus poussés. \\
     \caption{Architecture simplifiée de \gls{kermitg}}
 \end{figure}
 \paragraph*{}Les données devant être sauvegardées, tels que les données d'une base de données, sont stockées sur des disques dits persistants, en dehors de la solution de \gls{paas}.
-\paragraph*{}Il est important de noter que chaque pod possède sa propre adresse \gls{ip} publique. De même, nous pouvons créer autant d'\gls{url} que l'on souhaite pour chacune de ces adresses \gls{ip}. Les \gls{url} pouvant être sécurisé par l'ajout de son propre certificats, ou bien en utilisant celui déjà existant de \gls{kermitg}. \\
+\paragraph*{}Il est important de noter que chaque pod possède sa propre adresse \gls{ip} publique. De même, nous pouvons créer autant d'\gls{url} que l'on souhaite pour chacune de ces adresses \gls{ip}. Les \gls{url} pouvant être sécurisé par l'ajout de son propre certificats, ou bien en utilisant celui déjà existant de \gls{kermitg}. \paragraph*{}L'utlisation de \gls{kermitg} pour pouvoir faire de l'intégration continue m'a permis de renforcer mes compétence en conteneurisation. J’ai été amené à
+développer des scripts d’installation pour leur client sur des machines Linux, puisque
+jusqu’à présent il n’y avait pas d’installation du client de \gls{kermitg} sur Linux. Cela m’a permis de renforcer mes compétences de scripting Linux.
+\paragraph*{}Bien que je connaissais déjà Docker grâce à mon auto formation faite suite au projet de 2 année de l’école, la prise en main de Kermit, m’a permis de renforcer mes compétences sur la conteneurisation et particulièrement sur Docker. \\
 \subsection{Travail de préparation} 
 \subsubsection{Recherche de solution technique}
 \paragraph*{}Avant la phase de réalisation il a fallu identifier les différents choix techniques possibles, puis en choisir un selon nos besoins, tout en comprenant son fonctionnement. Cette première phase du projet s’est déroulée d’octobre 2015 à mi-janvier 2016.
@@ -385,7 +388,7 @@ puisque je n’étais pas présent en entreprise. L’interface et le design ont
 \item Un \texttt{Test Plan}, est un scénario testant un ensemble de fonctionnalités \gls{cwmp} sur un équipement donné, et aboutissant à la création d'un rapport de test.
 \item Un \texttt{Test} permet de vérifier l'implémentation d'une fonctionnalité \gls{cwmp} en particulier au travers d'un ou plusieurs échange avec l'équipement, durant un temps donné. Dans un \texttt{Test Plan}, il doit y avoir un ou plusieurs \texttt{Test}. Un \texttt{Test Plan} est réussi uniquement si tous ses \texttt{Test} le sont.
 \item Une \texttt{Step}, correspond à un échange \gls{cwmp} avec l'équipement à tester. Un \texttt{Test} est composé d'une ou plusieurs \texttt{Step}. Il comporte donc le nom de la méthode \gls{cwmp} attendu ou à envoyer à l'équipement. Un \texttt{Test} n'est réussi que si toutes ses \texttt{Step} le sont aussi, et si elles sont faites dans le temps définis pour le \texttt{Test}.
-\item Un \texttt{Parameter}, représente un paramètre envoyé dans une méthode \gls{cwmp}. Ils peuvent à la fois être donnés par l'utilisateur, mais aussi défini par défaut par Orange, selon ce qui doit être testé. Une \texttt{Step} peut avoir plusieurs paramètres comme aucun.
+\item Un \texttt{Parameter}, représente un paramètre envoyé dans une méthode \gls{cwmp}. Ils peuvent à la fois être donnés par l'utilisateur, mais aussi défini par défaut par Orange, selon ce qui doit être testé. Une \texttt{Step} peut avoir plusieurs paramètres comme aucun. \\
 \end{itemize} 
 \subsubsection{Modèle relationnel de données}
 \paragraph*{}Le modèle relationnel de données sur lequel nous nous sommes arrêtés courant mars 2017 est formé de huit tables:
@@ -400,12 +403,13 @@ puisque je n’étais pas présent en entreprise. L’interface et le design ont
 \item \texttt{parameter}: Table permettant de savoir quel(s) paramètre(s) passer à la méthode \gls{cwmp} qui sera envoyée à l'équipement.
 \end{itemize}
 %Import Images
-\begin{figure}[!t]
+\begin{figure}[!h]
     \center
-    \includegraphics[scale=0.69]{./img/db_schema.png}
+    \includegraphics[scale=0.78]{./img/db_schema.png}
     \caption{Modèle relationnel de données}
 \end{figure}
 \paragraph*{}Ces tables forment quatre parties utilisées par les modules qui constituent l'architecture logicielle de \gls{tink}. La partie User, composée de la table user, la partie Device composée de la table device, la partie TestType composée de la table test\_type, et la partie Test composée des tables test\_plan, test, step, message et parameter. \\
+\newpage
 \subsubsection{Architecture logicielle}
 \paragraph*{}Trois modules composent la plateforme \gls{tink}: GUI, TestManager et CWMP\_I. Ces trois modules sont indépendants les un des autres et communiquent uniquement par les \gls{api} qu'ils exposent. Ainsi ils ne partagent pas de dépendances et peuvent être déployés sur des serveurs d'applications différents. 
 \begin{itemize}
@@ -420,25 +424,23 @@ Ci-dessous nous pouvons voir un schéma de l'architecture logicielle de \gls{tin
     \includegraphics[scale=0.87]{./img/archi_logi.png}
     \caption{Architecture logicielle de \gls{tink}}
 \end{figure}
+\newpage
 \subsection{Réalisation}
 \subsubsection{Travail en équipe}
 \paragraph*{}L'équipe de travail sur ce projet a été amené à changer plusieurs fois tous au long de la réalisation du projet. Comme mentionné précédemment, de Octobre 2015 à mars 2016 nous étions trois, et mon travail était principalement axé sur la recherche de solution technique. Ainsi vis à vis des autres membre du projet, j'avais uniquement à présenter les résultats lors de points d'avancement hebdomadaire.
 \paragraph*{}Le travail en équipe à fortement évoluer et pris plus d'ampleur avec l'arrivée en mars 2016 de Jean-Pierre ONA. Il m’a été demandé d’encadrer ses activités et tâches lors de mes périodes en entreprise. Par conséquent, l’arrivée de Jean-Pierre ONA dans le projet en tant que développeur web et java, m’a demandé une adaptation dans mon organisation et les tâches que je devais accomplir ou lui donner. Nous avons choisi de travailler ensemble sur l’architecture logicielle de \gls{tink} en réalisant différentes évolutions de l’architecture qui, petit à petit, ont permis de définir le périmètre de chacun. A terme, chacun avait sa propre partie de l’architecture à
-gérer, bien que nous ayons fait en sorte d’être cohérents dans nos choix.
+gérer, nous avons fait en sorte d’être cohérents dans nos choix.
 \paragraph*{}Nos compétences techniques étant très différentes, cela nous a permis
 d’établir clairement le périmètre de chacun une fois l’architecture choisie. Jean-Pierre ONA est plus axé développement java et web, tandis que je suis plus orienté sur la partie algorithmique et base de données, et possède une connaissance du protocole \gls{cwmp}. Ainsi, Jean-Pierre ONA s’est occupé de la partie \gls{ihm} utilisateur, tandis que je me suis occupé de la partie interface équipement et réalisation/validation des tests. De plus, ayant une formation accès système, j’ai été en charge du déploiement et de la configuration système du serveur d’application et de la base de données sur \gls{kermitg}.
-\paragraph*{}Durant les phases de développement des Sprints, nous avons modifié
-régulièrement le modèle relationnel de données afin de s’adapter aux exigences des
-Sprints. Ces modifications ont nécessité une importante communication, dans un premier
-temps entre Jean-Pierre ONA et moi-même, puis avec Marc DOUET et Matthieu ANNE pour
-présenter les modifications et discuter ensemble les points bloquants. Ces modifications nous ont demandé une forte capacité d’adaptation, tant individuelle qu’au niveau organisationnelle. Les modifications faites sur la base de données et sur l'architecture sont parfaitement inhérentes à la méthodologie de projet d’agilité.
+\paragraph*{}Durant les phases de développement des \gls{sprintg}, nous avons régulièrement modifié le modèle relationnel de données afin de s’adapter aux exigences des \gls{sprintg}. Ces modifications ont nécessité une importante communication, dans un premier temps entre Jean-Pierre ONA et moi-même, puis avec Marc DOUET et Matthieu ANNE pour présenter les modifications et discuter ensemble les points bloquants. Ces révisions nous ont demandé une forte capacité d’adaptation, tant individuelle qu’au niveau organisationnelle. Les évolutions faites sur la base de données et sur l'architecture sont parfaitement inhérentes à la méthodologie de projet d’agilité.
 \paragraph*{}À la suite du départ de Jean-Pierre ONA en août 2016, nous nous sommes de nouveau retrouvé à trois. Le travail était alors à la fois de continuer l'implémentation des fonctionnalités planifiées, mais également de récupérer et s'approprié le travail réalisé sur le module GUI par Jean-Pierre ONA. Matthieu ANNE et moi-même sommes montés en compétences sur ce module et y avons progressivement développés de nouvelles fonctionnalités.
-\paragraph*{}Nous avons cessé de travailler sous forme de \gls{sprintg}, mais avons continuer de développer l'outil fonctionnalité par fonctionnalité, en faisant des point plusieurs fois par semaine. \\
+\paragraph*{}Nous avons cessé de travailler sous forme de \gls{sprintg}, mais avons continuer de développer l'outil fonctionnalité par fonctionnalité, en faisant des point plusieurs fois par semaine. Nous n'avons pas apporter d'évolution majeure à l'architecture de \gls{tink}, ni repris la modélisation des tests. Cependant, nous avons adapter le modèle relationnel de données aux nouvelles fonctionnalité développées, cela a pu se faire assez facilement grâce au travail réalisé précédemment. \\
 
 \subsubsection{Développement}
-\paragraph*{}
-\paragraph*{}
-\paragraph*{}
+\paragraph*{}Intro: java, x69(spring et servlet cxf)
+\paragraph*{}Le poc, aide de déveloper senior Eduard, Février à Mars 2016
+\paragraph*{}La première release, mars à aout 2016, 
+\paragraph*{}Les évolution au cours de la troisième année septembre 2016 à aout 2017
 
 \subsection{Lancement de l'application}
 \subsubsection{Communication et présentation}
