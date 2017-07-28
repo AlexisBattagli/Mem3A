@@ -602,6 +602,65 @@ Comme nous avons pu le voir tout au long de cette partie, ma première année fu
 	\caption{Liste des RPC méthodes devant être implémentées par le CPE.}
 \end{table}
 
+\chapter{Liste des tests de TINK}
+\begin{table}
+	\begin{tabularx}{17cm}{|l|X|}
+		\hline
+		Test & Description\tabularnewline
+		\hline
+		TR-069 Init Session & Vérifie l'initiation d'une session \gls{cwmp} par le \gls{cpe}\tabularnewline
+		\hline
+		GetParameterValues Mandatory & Vérifie la bonne construction de GetParamaterValuesResponse et la présence des paramètre suivant, requis par \gls{karmag}: 
+		\begin{itemize}
+		\item ManagementServer.ConnectionRequestURL
+		\item DeviceInfo.ProductClass
+		\item DeviceInfo.ProvisioningCode
+		\item DeviceInfo.ManufacturerOUI
+		\item DeviceInfo.SerialNumber
+		\end{itemize}		\tabularnewline		
+		\hline
+		GetParameterValues Custom & Equivaut au précédant test, mais la possibilité pour l'utilisateur de demander un GetParameterValues sur n'importe quel paramètre de son choix.\tabularnewline
+		\hline
+		SetParameterValues Mandatory & Vérifie la bonne construction de SetParamaterValuesResponse et la présence du paramètre suivant, requis par \gls{karmag}, DeviceInfo.ProvisioningCode\tabularnewline
+		\hline
+		SetParameterValues Custom & Equivaut au précédant test, mais la possibilité pour l'utilisateur de demander un SetParameterValues sur n'importe quel paramètre de son choix.\tabularnewline
+		\hline
+		UpdateConfiguration Mandatory & En plus d'envoyer un SetParameterValues, on vient ensuite vérifier le contenue du paramètre avec un GetParameterValues pour contrôler qu'il a été correctement mis à jour. Les paramètres à tester et requis par \gls{karmag} sont: 
+		\begin{itemize}
+		\item ManagementServer.PasswordConnectionURL
+		\item ManagementServer.UserConnectionURL
+		\end{itemize} \tabularnewline
+		\hline
+		UpdateConfiguration Custom & Equivaut au précédant test, mais la possibilité pour l'utilisateur de demander le test sur n'importe quel paramètre de son choix.\tabularnewline
+		\hline
+	%COUPER LE TABLEAU EN DEUX ICI !
+		\hline
+		\end{tabularx}
+	\centering
+	\caption{Liste des tests proposés par \gls{tink} (part 1/2)}
+\end{table}
+
+\begin{table}
+	\begin{tabularx}{17cm}{|l|X|}
+		\hline
+		Test & Description\tabularnewline
+		\hline
+		Reboot & Vérifie la bonne construction d'un RebootResponse et que le \gls{cpe} parvient bien à redémarrer. Le \gls{cpe} doit contacter son \gls{acs} au redémarrage.\tabularnewline
+		\hline
+		Factory Reset & Vérifie la bonne construction d'un FactoryResetResponse et si le \gls{cpe} est capable de réinitiliser ses paramètres à l'état d'usine. \tabularnewline
+		\hline
+		Schedule Inform & Vérifie la bonne construction d'un ScheduleInformResponse et si le \gls{cpe} est capable dans un délais donné à plus ou moins cinq secondes. \tabularnewline
+		\hline
+		Connection Request & Vérifie si le \gls{cpe} est capable de revenir après la fermeture de session \gls{cwmp} et l'envoie d'un \gls{http} get de la part de son \gls{acs}. \tabularnewline
+		\hline
+		Periodic Inform & Vérifie si le \gls{cpe} peut revenir périodiquement à un interval de temps donné, à plus ou moins cinq secondes. \tabularnewline
+		\hline
+	\end{tabularx}
+	\centering
+	\caption{Liste des tests proposés par \gls{tink} (part 2/2)}
+\end{table}
+
+
 \chapter{Tableau d'auto-évaluation de compétences}
 %Import Images
 \begin{figure}[!ht]

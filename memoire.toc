@@ -76,4 +76,5 @@
 \contentsline {subsection}{\numberline {6.2}Progression}{65}{subsection.0.6.2}
 \contentsline {subsection}{\numberline {6.3}Synth\IeC {\`e}se de parcours}{65}{subsection.0.6.3}
 \contentsline {chapter}{\numberline {A}RPC Method CWMP}{66}{appendix.A}
-\contentsline {chapter}{\numberline {B}Tableau d'auto-\IeC {\'e}valuation de comp\IeC {\'e}tences}{68}{appendix.B}
+\contentsline {chapter}{\numberline {B}Liste des tests de TINK}{68}{appendix.B}
+\contentsline {chapter}{\numberline {C}Tableau d'auto-\IeC {\'e}valuation de comp\IeC {\'e}tences}{71}{appendix.C}
