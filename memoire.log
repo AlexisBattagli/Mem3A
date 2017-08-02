@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.18)  1 AUG 2017 16:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.18)  2 AUG 2017 10:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1378,12 +1378,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 525--526
 
  []
 
-
+[63]
 Underfull \hbox (badness 10000) in paragraph at lines 529--530
 
  []
 
-[63]
+
 Underfull \hbox (badness 10000) in paragraph at lines 534--535
 
  []
@@ -1458,24 +1458,15 @@ Overfull \hbox (28.45273pt too wide) in paragraph at lines 689--691
 
 ] [75] [76]
 Annexe C.
-<./img/tableaux_cpt.PNG, id=1887, 512.66531pt x 695.59875pt>
-File: ./img/tableaux_cpt.PNG Graphic file (type png)
+<./img/tableau_cpt.png, id=1898, 480.29437pt x 651.18282pt>
+File: ./img/tableau_cpt.png Graphic file (type png)
 
-<use ./img/tableaux_cpt.PNG>
-Package pdftex.def Info: ./img/tableaux_cpt.PNG used on input line 699.
-(pdftex.def)             Requested size: 461.3945pt x 626.0331pt.
+<use ./img/tableau_cpt.png>
+Package pdftex.def Info: ./img/tableau_cpt.png used on input line 699.
+(pdftex.def)             Requested size: 432.26093pt x 586.05913pt.
+ [77
 
-Overfull \hbox (6.15039pt too wide) in paragraph at lines 699--700
- [] 
- []
-
-[77
-
-]
-
-LaTeX Warning: Text page 78 contains only floats.
-
-[78 <./img/tableaux_cpt.PNG>] [79
+] [78 <./img/tableau_cpt.png>] [79
 
 
 ] [80]
@@ -1496,8 +1487,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 708.
  ) 
 Here is how much of TeX's memory you used:
  15914 strings out of 494883
- 238136 string characters out of 6178692
- 402360 words of memory out of 5000000
+ 238131 string characters out of 6178692
+ 403752 words of memory out of 5000000
  18421 multiletter control sequences out of 15000+600000
  66986 words of font info for 49 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
@@ -1511,10 +1502,10 @@ are/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/
 lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texm
 f/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12
 .pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on memoire.pdf (83 pages, 1567745 bytes).
+Output written on memoire.pdf (83 pages, 1468284 bytes).
 PDF statistics:
- 2163 PDF objects out of 2487 (max. 8388607)
- 2001 compressed objects within 21 object streams
+ 2174 PDF objects out of 2487 (max. 8388607)
+ 2009 compressed objects within 21 object streams
  492 named destinations out of 1000 (max. 500000)
  693 words of extra memory for PDF output out of 10000 (max. 10000000)
 
