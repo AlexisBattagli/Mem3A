@@ -72,9 +72,8 @@
 \contentsline {subsection}{\numberline {4.8}Axe d'am\IeC {\'e}lioration}{71}{subsection.0.4.8}
 \contentsline {subsection}{\numberline {4.9}Conclusion}{72}{subsection.0.4.9}
 \contentsline {section}{\numberline {5}Conclusion}{73}{section.0.5}
-\contentsline {subsection}{\numberline {5.1}Atteintes des objectifs}{73}{subsection.0.5.1}
-\contentsline {subsection}{\numberline {5.2}Progression}{73}{subsection.0.5.2}
-\contentsline {subsection}{\numberline {5.3}Synth\IeC {\`e}se de parcours}{73}{subsection.0.5.3}
-\contentsline {chapter}{\numberline {A}RPC Method CWMP}{77}{appendix.A}
-\contentsline {chapter}{\numberline {B}Liste des tests de TINK}{79}{appendix.B}
-\contentsline {chapter}{\numberline {C}Tableau d'auto-\IeC {\'e}valuation de comp\IeC {\'e}tences}{82}{appendix.C}
+\contentsline {subsection}{\numberline {5.1}Progression}{73}{subsection.0.5.1}
+\contentsline {subsection}{\numberline {5.2}Synth\IeC {\`e}se de parcours}{74}{subsection.0.5.2}
+\contentsline {chapter}{\numberline {A}RPC Method CWMP}{79}{appendix.A}
+\contentsline {chapter}{\numberline {B}Liste des tests de TINK}{81}{appendix.B}
+\contentsline {chapter}{\numberline {C}Tableau d'auto-\IeC {\'e}valuation de comp\IeC {\'e}tences}{84}{appendix.C}
